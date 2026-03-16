@@ -31,7 +31,7 @@ The standard equilibrium concept in modern macroeconomics is the **competitive e
 
 **Definition (Macroeconomic Equilibrium).** A macroeconomic equilibrium is a tuple
 
-$$\Bigl(\{c_{t}^{\ast} \, \ell_{t}^{\ast}\}_{t=0}^{\infty},\quad \{k_{t}^{*} \, n_{t}^{\ast}\}_{t=0}^{\infty},\quad \{w_{t}^{\ast} \, r_{t}^{\ast} \, p_{t}^{\ast}\}_{t=0}^{\infty}\Bigr)$$
+$$\Bigl(\left{c_{t}^{\ast} \, \ell_{t}^{\ast}\right}_{t=0}^{\infty},\quad \left{k_{t}^{*} \, n_{t}^{\ast}\right}_{t=0}^{\infty},\quad \left{w_{t}^{\ast} \, r_{t}^{\ast} \, p_{t}^{\ast}\right}_{t=0}^{\infty}\Bigr)$$
 
 of household plans for consumption $c_{t}^{\ast}$ and leisure $\ell_{t}^{\ast}$, firm plans for capital $k_{t}^{\ast}$ and labor demand $n_{t}^{\ast}$, and sequences of factor prices and the price level, such that:
 
