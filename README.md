@@ -9,7 +9,7 @@ It is left as an exercise for the reader to guess which large language model was
 
 ## Principles of Modern Macroeconomics
 
-###Why This Book?
+### Why This Book?
 
 Macroeconomics is everywhere. It shapes the policies that govern nations, inﬂuences the
 decisions of businesses, and aﬀects the daily lives of individuals around the world. Yet, for
@@ -22,7 +22,7 @@ was written to bridge that gap. Our goal is to present macroeconomic theory in a
 both rigorous and accessible, demonstrating how abstract concepts translate into real-world
 phenomena that students can observe and understand.
 
-###Our Approach
+### Our Approach
 
 We have organized this book around a simple principle: learning progresses from the fa-
 miliar to the complex. Each chapter builds upon the previous ones, gradually introducing
