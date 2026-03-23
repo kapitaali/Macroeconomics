@@ -1,71 +1,12 @@
-# Macroeconomics
+# Modeling Modern Macroeconomics
 
-I find it fascinating that I can type a few words and the computer writes me a book. Well that just happened. It's in markdown format, but I'll produce a PDF at some point. There will be a companion book that talks about numerical methods and macroeconomics models. 
-
-I haven't verified any of the contents here. So it's up to the reader to decide whether or not any of this stuff is of any value. But even if half of it is real and not slop, it's quite something I would say. 
-
-It is left as an exercise for the reader to guess which large language model was used.
-
-
-## Principles of Modern Macroeconomics
-
-### Why This Book?
-
-Macroeconomics is everywhere. It shapes the policies that govern nations, inﬂuences the
-decisions of businesses, and aﬀects the daily lives of individuals around the world. Yet, for
-many students, macroeconomics remains an abstract discipline—ﬁlled with equations and
-models that seem disconnected from the realities they observe in their communities and in
-the news.
-
-This textbook, Principles of Modern Macroeconomics: From Theory to Everyday Application,
-was written to bridge that gap. Our goal is to present macroeconomic theory in a way that is
-both rigorous and accessible, demonstrating how abstract concepts translate into real-world
-phenomena that students can observe and understand.
-
-### Our Approach
-
-We have organized this book around a simple principle: learning progresses from the fa-
-miliar to the complex. Each chapter builds upon the previous ones, gradually introducing
-more sophisticated concepts while maintaining connections to everyday experiences.
-The book is structured into nine parts:
-
-1. *Foundations* — Establishing the basic vocabulary and concepts of macroeconomics
-2. *Core Theories* — Presenting the fundamental models that economists use
-3. *Microfoundations* — Exploring the behavior of individuals and ﬁrms
-4. *Markets* — Understanding how diﬀerent markets interact
-5. *Sectoral Dynamics* — Examining the roles of government, central banks, and interna-
-tional trade
-6. *Real-World Applications* — Applying theory to policy and business cycles
-7. *Domain-Speciﬁc Topics* — Addressing international economics, development, and ﬁ-
-nance
-8. *Modern Evolutions* — Exploring contemporary challenges and future directions
-9. *Capstone* — Synthesizing knowledge through case studies and career applications
-
-
-### Contents
-
-| Part | Chapters | Files |
-|------|----------|-------|
-| I — Foundations | 1–6 | ch01–ch06 |
-| II — Core Theories | 7–10 | ch07–ch10 |
-| III — Microfoundations | 11–16 | ch11–ch16 |
-| IV — Markets | 17–21 | ch17–ch21 |
-| V — Sectoral Dynamics | 22–26 | ch22–ch26 |
-| VI — Policy Applications | 27–31 | ch27–ch31 |
-| VII — Domain-Specific | 32–35 | ch32–ch35 |
-| VIII — Modern Evolutions | 36–39 | ch36–ch39 |
-| IX — Capstone | 40–42 | ch40–ch42 |
-
-
-## Modeling Modern Macroeconomics
-
-### Why This Book?
+## Why This Book?
 
 Macroeconomics is built on models—mathematical representations that distill complex economic behavior into frameworks we can analyze, simulate, and test. Yet for many students, the journey from learning macroeconomic principles to actually building and solving these models feels like a leap into the unknown. The equations seem abstract, the algorithms opaque, and the connection to real-world policy remote.
 
 This textbook, *Methods of Modeling Modern Macroeconomics: A Mathematical and Computational Approach*, was written to bridge that gap. It is the natural companion to *Principles of Modern Macroeconomics*, designed to transform theoretical understanding into practical modeling skills. Our goal is to equip readers with the mathematical tools, numerical methods, and computational techniques that economists use to simulate policy, forecast economic outcomes, and understand the dynamics of growth, business cycles, and crises.
 
-### Our Approach
+## Our Approach
 
 We have organized this book around the same progressive philosophy as its companion volume, but now the progression is from mathematical foundations to full-fledged computational models. Each part introduces new tools and applies them directly to the macroeconomic concepts covered in the first book. The nine parts are:
 
@@ -82,7 +23,7 @@ We have organized this book around the same progressive philosophy as its compan
 Every chapter includes derivations, pseudocode, worked examples, and programming exercises in languages such as APL, Python, Julia, and R. By the end of this book, readers will not only understand how macroeconomic models are constructed but will be able to implement, simulate, and evaluate them themselves—turning theory into practice.
 
 
-### Contents
+## Contents
 
 | Part | Chapters | Files |
 |------|----------|-------|
