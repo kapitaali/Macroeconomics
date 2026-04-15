@@ -1,79 +1,144 @@
 # Chapter 29 — Monetary Policy in Practice: Interest Rates and Quantitative Easing
 
+> *"The first priority of a central bank is to keep the value of its currency stable... To achieve this, it must be willing to act preemptively."*
+> — Janet Yellen, *A Minsky Meltdown: Lessons for Central Bankers*, 2009
+
 ---
 
-Chapter 23 developed the theory of optimal monetary policy in the New Keynesian framework — the ideal central bank, solving a welfare optimization problem with perfect information and full commitment. Real-world monetary policy involves none of these luxuries: information is incomplete and revised continuously, models are uncertain and contested, and commitment mechanisms are imperfect. This chapter examines how monetary policy is actually conducted, what we know about its quantitative effects, and how the toolkit expanded after 2008 when conventional interest rate policy reached its limits.
+Chapter 23 developed the theory of optimal monetary policy in the New Keynesian framework: a benevolent, fully informed central bank solving a welfare optimization problem with perfect commitment. Real-world monetary policy involves none of these luxuries. Information arrives with lags and is substantially revised; models are contested; the natural rate of interest is unobservable and shifts over time; and credibility must be earned through repeated interaction rather than simply assumed. This chapter examines how monetary policy is actually conducted — the design of interest rate rules, the record of inflation targeting, and the unconventional tools deployed after 2008 — and what the empirical evidence says about the quantitative effects of each.
 
 ---
 
-## 29.1 The Taylor Rule in Practice and its Variants
+## 29.1 The Taylor Rule in Practice and Its Variants
 
-The Taylor (1993) rule described in Chapter 23 has become the benchmark against which actual monetary policy is evaluated. Empirically, the fed funds rate tracks the Taylor rule reasonably well in "normal" times but deviates significantly at turning points and at the ELB. Orphanides (2001) showed that the apparent deviations of 1970s Fed policy from the Taylor principle disappear when real-time data (the data available to policymakers at the time) are used instead of revised data — the Fed may have been following the Taylor principle relative to its own incomplete information.
+### Specification and Variants
 
-The **neutral rate estimation problem** is a major practical challenge. The Taylor rule requires the neutral real rate $r^n$, but $r^n$ is not directly observable — it must be estimated from the data. Estimates diverge widely. The Laubach–Williams (2003) state-space model estimates $r^n$ declined from approximately 3.5% in the early 1990s to approximately $-0.5\%$ by 2015–16, a staggering 4-percentage-point decline. If $r^n$ is near zero or negative, the appropriate policy rate under the Taylor rule is also near zero even with inflation at target and output at potential — implying that conventional monetary policy has essentially no "room" at all in the new normal.
+The Taylor (1993) rule provides a benchmark for evaluating whether policy is tight or loose relative to economic conditions:
+
+$$i_t = r^n + \pi^* + \phi_\pi(\pi_t - \pi^*) + \phi_y \hat{x}_t,$$
+
+with Taylor's original calibration $\phi_\pi = 1.5$, $\phi_y = 0.5$. The **Taylor principle** requires $\phi_\pi > 1$: the nominal rate must rise more than one-for-one with inflation so that the real rate rises when inflation increases, stabilizing inflation expectations [Ch. 23].
+
+Several variants add interest rate smoothing (reflecting central banks' preference for gradual rate changes):
+
+$$i_t = \rho_i i_{t-1} + (1-\rho_i)[r^n + \pi^* + \phi_\pi(\pi_t - \pi^*) + \phi_y\hat{x}_t] + \epsilon_t^m,$$
+
+with $\rho_i \approx 0.85$ estimated for the Fed over 1987–2007. Smoothing reduces market volatility from policy surprises and provides additional accommodation at the ELB (because expectations of future rate cuts follow a gradual path rather than an immediate drop).
+
+### The Real-Time Data Problem
+
+A persistent challenge in evaluating Taylor rule adherence is that policymakers observe real-time data subject to revision, not the revised data used in academic evaluations. Orphanides (2001) showed that the apparent deviation of 1970s Fed policy from the Taylor principle largely disappears when real-time output gap estimates (available from the Fed's own Greenbook forecasts) are used instead of ex post revised data: the Fed was roughly following the Taylor rule given what it knew at the time, but was systematically overestimating potential output — a data problem, not a preference problem.
+
+### The Neutral Rate Estimation Problem
+
+The Taylor rule requires $r^n$, the neutral real rate, but $r^n$ is not directly observable. The Laubach-Williams (2003) Kalman filter model estimates that U.S. $r^n$ declined from approximately 3.5% in the early 1990s to approximately $-0.5\%$ by 2016 — a decline of more than 4 percentage points over two decades. If $r^n$ is near zero or negative, the Taylor rule prescribes a near-zero nominal rate even at full employment and 2% inflation, implying that the ELB binds frequently under normal conditions. This structural shift in $r^n$ — driven by demographic trends, slowing productivity growth, and global saving glut dynamics — is one of the most important and least certain empirical findings in modern macroeconomics.
 
 ---
 
 ## 29.2 Inflation Targeting: Design and Empirical Performance
 
-Inflation targeting was introduced by New Zealand in 1990. The framework has four standard features: (i) a public commitment to a specific inflation target (typically 2% CPI); (ii) central bank operational (instrument) independence; (iii) transparency through quarterly Inflation Reports, regular press conferences, and published forecasts; and (iv) accountability through parliamentary testimony and open letters when the target is missed.
+### The Framework
 
-**Credibility and the sacrifice ratio**: one of the main claimed benefits of inflation targeting is enhanced credibility — markets and wage-setters believe the central bank will maintain low inflation, reducing the sacrifice ratio for any necessary disinflation. The evidence: Ball and Sheridan (2005) found that inflation fell similarly in OECD targeting and non-targeting countries during the 1990s, challenging the hypothesis that adoption per se reduced inflation. Rose (2007) found targeting reduced inflation level and variance, but identifying causation is difficult because countries often adopted targeting precisely when inflation was high and they were committing to credible disinflation.
+Inflation targeting was introduced by the Reserve Bank of New Zealand in 1990 and adopted by the Bank of England, Sweden, Canada, and Australia through the 1990s. By 2020, more than 40 countries were using formal inflation targeting frameworks. The standard design has four components: (i) a publicly announced numerical inflation target (typically 2% CPI); (ii) **instrument independence** — the central bank freely chooses its policy rate; (iii) transparency through regular Inflation Reports, published forecasts, and post-meeting press conferences; and (iv) accountability through parliamentary testimony and legally mandated open letters when the target is missed by more than a specified margin.
 
-**Average Inflation Targeting (AIT)**: the Federal Reserve's August 2020 framework revision, discussed in Chapter 23. Key features: (i) outcome-based forward guidance; (ii) a "make-up" strategy allowing temporary above-target inflation following below-target periods; (iii) an asymmetric labor market goal (maximum employment as a broad, inclusive objective with no fixed numerical target). AIT was designed to raise inflation expectations and reduce the probability of the ELB binding persistently, but its practical implementation during the 2021–22 inflation surge — when delayed tightening allowed inflation to reach 8% — raised questions about whether the framework had been interpreted too loosely.
+### The Evidence on Credibility and Sacrifice Ratios
+
+One of the principal claims for inflation targeting is enhanced credibility: if households and wage-setters believe the central bank will maintain low inflation, the sacrifice ratio for any necessary disinflation is reduced because expectations of inflation fall quickly alongside actual disinflation, rather than lagging as under adaptive expectations.
+
+The empirical evidence is mixed. Ball and Sheridan (2005) found that inflation fell similarly in OECD targeting and non-targeting countries during the 1990s, raising the question of whether the adoption of a formal target itself caused the disinflation or merely coincided with a global disinflationary trend. Subsequent event-study analyses exploiting the timing of individual adoptions have been more favorable, finding that adopting inflation targeting reduced long-run inflation expectations (as measured by inflation compensation embedded in indexed bond yields) by approximately 0.5–1.0 percentage points over three years.
+
+### Average Inflation Targeting
+
+The Federal Reserve's August 2020 framework revision introduced **Average Inflation Targeting (AIT)**: the Fed would henceforth seek inflation that averages 2% over time, meaning that periods of below-target inflation would be followed by deliberate above-target periods. This "make-up strategy" was designed to address a specific problem: if the ELB binds frequently and the Fed always aims to return to 2% as quickly as possible, average realized inflation will be systematically below 2%, keeping the neutral nominal rate (equal to $r^n + \pi^*$) low and making ELB episodes even more frequent. By committing to above-2% inflation following below-target periods, AIT raises the expected average policy rate and reduces the probability of persistent ELB binding.
+
+AIT's practical implementation during the 2021–22 inflation surge — when the Fed delayed rate increases while inflation exceeded 5% and then 8% — raised sharp questions about whether the framework provided sufficient guidance for an inflationary shock of unexpected magnitude and whether the make-up strategy had been interpreted so loosely as to be indistinguishable from discretion. The subsequent rapid tightening and the decline of inflation back toward target by 2023–24 without a severe recession suggested that credibility was not permanently damaged, but the episode prompted significant reassessment of AIT's operational specifics.
 
 ---
 
 ## 29.3 Quantitative Easing: Mechanisms and Evidence
 
-When the policy rate is at the ELB, the central bank's standard tool is exhausted. **Quantitative easing (QE)** extends the toolkit by having the central bank purchase large quantities of longer-term assets.
+When the policy rate reaches the ELB, the standard interest rate channel is exhausted. **Quantitative easing (QE)** extends the toolkit by having the central bank purchase large quantities of longer-term assets, reducing their yields and putting downward pressure on a broader range of borrowing costs.
 
-### Preferred Habitat Theory and Portfolio Balance
+### Theoretical Channels
 
-The standard theoretical framework for QE's interest rate effects is the **preferred habitat model** of Vayanos and Vila (2009). In this model, investors have preferred maturities (pension funds want 30-year bonds; money market funds want overnight); they will deviate from their preferred maturities only if sufficiently compensated by term premia. When the central bank removes long-duration bonds from the market (by buying them), preferred-habitat investors must hold more short-duration bonds, bidding down long-duration yields relative to short-duration yields — reducing the term premium $\phi_t^n$.
+**Portfolio balance channel (preferred habitat theory):** Vayanos and Vila (2009) model investors as having preferred maturities (pension funds prefer long-duration bonds to match long-duration liabilities; money market funds prefer short-duration assets). When the central bank purchases long-duration bonds, preferred-habitat investors who held those bonds must reinvest in shorter-duration or alternative assets, bidding down yields across the maturity and credit spectrum. The effect is proportional to the quantity purchased relative to the outstanding supply of long-duration bonds.
 
-The term premium effect can be written as:
+**Signaling channel:** QE purchases may signal to the market that the central bank intends to keep short rates low for an extended period, reducing long rates through the expectations component of the yield (rather than the term premium). Bauer and Rudebusch (2014) decompose QE's yield effects into signaling (approximately 50%) and portfolio balance (approximately 50%) components.
 
-$$\Delta\phi_t^n \approx -\frac{\Delta Q_t}{D_t},$$
+**Market functioning channel:** in the acute phase of a financial crisis (March-April 2008, September-November 2008, March 2020), credit markets seize up — bid-ask spreads widen to multiples of normal levels, market-making capacity evaporates, and liquidity premia dominate yields. Central bank purchases directly restore market liquidity, reducing the liquidity premium component of yields independently of expected future rates.
 
-where $\Delta Q_t$ is the change in central bank holdings of long-duration bonds and $D_t$ is the dollar duration of the market portfolio. Larger purchases relative to outstanding supply generate larger term premium reductions.
+### Empirical Evidence on Yield Effects
 
-### Empirical Evidence
+**Federal Reserve QE1** (November 2008–March 2009, $\$1.75$ trillion in MBS, agency debt, and Treasuries): Gagnon et al. (2011) estimate that the program reduced 10-year Treasury yields by approximately 90–100 basis points using event-study methods and time-series regressions. The 30-year mortgage rate fell by a comparable magnitude.
 
-**Federal Reserve QE1** (November 2008–March 2009, $\$600$ billion in MBS and agency debt; $\$300$ billion in Treasuries): Gagnon et al. (2011) estimate the effect of the full program on 10-year Treasury yields at approximately $-90$ to $-100$ basis points using event studies and time-series regressions. The effect on 30-year MBS yields was similar, reducing mortgage rates and supporting the housing market.
+**Federal Reserve QE2** (November 2010–June 2011, $\$600$ billion in Treasuries): estimated yield reduction of approximately 20–30 bps per $\$100$ billion purchased (D'Amico and King, 2013). The smaller effect per dollar reflects both the shorter expected duration of QE2 and the faster market adjustment by the time of announcement.
 
-**Federal Reserve QE2** (November 2010–June 2011, $\$600$ billion in Treasuries): D'Amico and King (2013) estimate a term premium reduction of approximately $-26$ bps per $\$100$ billion, consistent with the portfolio balance channel. Hamilton and Wu (2012) estimate similar magnitudes using a term structure model.
+**ECB PSPP (Public Sector Purchase Programme)**, launched March 2015 at €60 billion/month eventually reaching €80 billion/month: Altavilla, Carboni, and Motto (2015) estimate 10-year sovereign yield reductions of 0.5–0.7 percentage points across the eurozone in the first year, with larger effects in peripheral countries (Italy, Spain) where the portfolio balance effect was reinforced by a reduction in redenomination risk premia.
 
-**ECB PSPP (Quantitative Easing)** (2015–2018, €2.6 trillion): Altavilla, Carboni, and Motto (2015) estimate 10-year sovereign yield reductions of approximately $-0.5$ to $-0.7$ pp across eurozone countries in the first year, with larger effects for peripheral countries (Italy, Spain) where sovereign spreads were also compressed.
+### Transmission to the Real Economy
 
-The **transmission from long rates to the real economy** is the critical and less certain step. Lower long-term yields reduce borrowing costs for firms and households, stimulate investment and durable goods purchases, depreciate the currency (stimulating net exports), and raise asset prices (through the wealth effect). The evidence suggests meaningful but modest effects on real activity: Weale and Wieladek (2016) estimate that the Bank of England's QE programs raised UK GDP by approximately 1.5% and inflation by approximately 1.25 pp relative to the no-QE counterfactual.
+The crucial and less certain step is the pass-through from lower bond yields to real economic activity. Lower long-term yields reduce borrowing costs for firms (corporate bond yields) and households (mortgage rates), stimulate investment and durable goods purchases, depreciate the exchange rate (improving net exports), and raise asset prices through valuation effects (the lower discount rate raises the present value of future cash flows, as in the Gordon growth model [Ch. 20]).
+
+Weale and Wieladek (2016) estimate that the Bank of England's QE programs raised UK GDP by approximately 1.5% and inflation by approximately 1.25 percentage points relative to the no-QE counterfactual, using a suite of VAR and DSGE models. For the Federal Reserve's programs, Chung et al. (2012) at the Fed estimate slightly smaller effects: approximately 1% on GDP and 0.5 percentage points on core PCE inflation.
+
+These estimates imply that QE is a meaningful but modest instrument relative to conventional rate cuts. The 90 bps yield reduction from QE1, for example, is equivalent to roughly 2–3 conventional rate cuts of 25 bps each (given standard estimates of pass-through from policy rate to long rates). Central banks can thus compensate partly for ELB constraints through large-scale asset purchases, but the substitution is imperfect.
 
 ---
 
 ## 29.4 Forward Guidance: Credibility and the Paradoxes
 
-Forward guidance is theoretically the most powerful unconventional tool: since the NK IS curve depends on the full expected future path of real rates, a credible commitment to keep rates low for longer can reduce current long rates without any immediate balance sheet expansion. The NK forward solution:
+### The Theoretical Case
+
+Forward guidance is theoretically the most potent unconventional tool. The NK-IS curve depends on the entire expected future path of the real interest rate:
 
 $$\hat{x}_t = -\sigma\sum_{k=0}^\infty\mathbb{E}_t[i_{t+k} - \pi_{t+k+1} - r_{t+k}^n].$$
 
-A 50-basis-point reduction in expected short rates over the next 5 years reduces the sum by $0.005 \times 20 = 0.10$, generating a 10% output gap increase with $\sigma = 1$ — a large effect.
+A credible commitment to keep rates at zero for five years instead of two reduces this sum substantially, stimulating current output without any immediate change in the balance sheet. Because the IS curve responds to the entire future rate path, forward guidance operates with zero implementation lag — unlike spending programs, which must be designed, appropriated, and contracted.
 
-The **forward-guidance puzzle** (Del Negro, Giannoni, and Patterson, 2015): in the standard NK model, forward guidance is implausibly powerful. A credible announcement that rates will be zero for the next 5 years instead of 2 generates enormous effects on current output and inflation — far larger than VAR evidence supports. The behavioral NK model (Chapter 15) with cognitive discounting $M < 1$ attenuates these effects by making agents discount future policy commitments.
+### The Forward-Guidance Puzzle
 
-**Credibility constraints** also limit forward guidance. Date-based guidance ("rates will remain at zero through mid-2015") is straightforward to communicate but creates a credibility problem: if the economy recovers faster than expected, the central bank faces pressure to raise rates before the stated date, undermining the commitment. Outcome-based guidance ("rates will remain at zero until unemployment falls below 6.5%") avoids this problem by conditioning on economic outcomes, but is harder to communicate and leaves more uncertainty about the rate path.
+The puzzle: in the standard NK model, forward guidance is implausibly powerful. A credible commitment to zero rates for five extra quarters can raise current output by several percentage points — far more than VAR evidence on the actual effects of forward guidance suggests. This extreme sensitivity to distant future expectations arises because the NK model's forward solution compounds expectations over an infinite horizon: each future period's expected real rate enters the current IS curve with equal weight.
+
+The behavioral NK model (Chapter 15) resolves this by cognitive discounting: boundedly rational agents discount future policy promises by $M^k$ over $k$ periods ahead, attenuating the effects of forward guidance on distant horizons. With $M = 0.85$ (Gabaix's estimate), a five-year forward guidance commitment has roughly one-third the effect it would have under full rationality — much closer to the empirically observed magnitudes.
+
+### Forms and Credibility
+
+**Date-based guidance** ("rates will remain at zero through mid-2015") is easy to communicate but creates a time-inconsistency problem: if the economy recovers faster than expected, the central bank faces pressure to raise rates before the announced date, undermining the commitment.
+
+**Outcome-based (threshold) guidance** ("rates will remain at zero until unemployment falls below 6.5% or inflation exceeds 2.5%") conditions the rate path on economic outcomes, avoiding the calendar problem. It is harder to communicate and introduces uncertainty about the rate path — households must forecast inflation and unemployment in addition to the central bank's reaction function — but it is more theoretically coherent and credibility-preserving.
+
+**Odyssean versus Delphic guidance** (Campbell et al., 2012): Delphic forward guidance is a forecast of the future rate path based on current information — informative but not binding. Odyssean guidance commits the central bank to a future action, tying itself to the mast like Odysseus to resist the siren call of short-run deviations. Only Odyssean guidance has the expectations-channel effects that make forward guidance valuable at the ELB; Delphic guidance merely improves information, which has smaller and less predictable effects.
 
 ---
 
 ## 29.5 Monetary Policy and Financial Stability
 
-A long-running debate concerns whether central banks should use interest rate policy to "lean against" financial imbalances — to raise rates above the level dictated by the Taylor rule when credit growth and asset prices are elevated, to reduce the probability of a financial crisis. The debate involves the trade-off between higher current output and inflation variance (the cost of leaning) against a lower probability of future financial crises (the benefit).
+### The Leaning Debate
 
-**The case against leaning** (Svensson, 2017): the costs of using interest rates to deflate credit and asset bubbles are concentrated in the near term (lower output and employment) while the benefits are diffuse and uncertain (reduced but not eliminated crisis probability, with a long and uncertain lag). Macroprudential tools (countercyclical capital buffers, LTV limits, leverage constraints) are better targeted at financial stability risks without the broad macroeconomic side effects.
+A long-running debate concerns whether central banks should use interest rates to "lean against" financial imbalances — raising rates above the Taylor rule when credit and asset price growth is elevated, to reduce the probability of a future crisis — or whether they should "clean up" after crises with aggressive monetary easing while using macroprudential tools to limit imbalances.
 
-**The case for leaning** (Borio and White, 2004): financial imbalances build slowly and are not well captured by current inflation and output gaps; a central bank that ignores them may face much larger eventual instability costs. The 2008 crisis demonstrated that the "clean up after" strategy (wait for the bubble to burst, then cut rates) has limits when the ELB binds and the recession is severe.
+**The case for leaning** (Borio and White, 2004; BIS research tradition): financial imbalances build slowly and are not captured by current inflation and output gap data; by the time a crisis materializes, it is too late; a central bank that ignores financial conditions may face much larger eventual instability costs that exceed the current output cost of preemptive rate increases.
 
-The emerging consensus (IMF, 2015; Svensson, 2017 rebuttal): macroprudential policy should be the primary tool for financial stability; monetary policy should incorporate financial stability considerations only when macroprudential tools are unavailable or exhausted. This consensus is embodied in the "two-pillar" frameworks adopted by many central banks, which maintain separate inflation and financial stability mandates.
+**The case against leaning** (Svensson, 2017): interest rates are a blunt instrument that affects all borrowing, not just the risky kind. The benefits of leaning (lower crisis probability, with long and uncertain lags) are small relative to the costs (higher unemployment and lower output in the near term, with certainty). Moreover, crises often originate in shadow banking or foreign currency positions that interest rate increases affect only indirectly. Macroprudential tools — countercyclical capital buffers, dynamic provisioning, LTV and DTI limits — are better targeted at the financial stability objective without the broad macroeconomic collateral damage.
+
+### The Emerging Consensus
+
+The post-crisis consensus, embodied in frameworks at the IMF, the BIS, and most inflation-targeting central banks, distinguishes clearly between the price stability mandate (pursued with the policy rate) and the financial stability mandate (pursued primarily with macroprudential tools, with the policy rate as a backstop when macroprudential tools are unavailable or exhausted). The 2008 crisis demonstrated that ignoring financial stability is catastrophically costly; but it also demonstrated that interest rates alone cannot contain financial imbalances without unacceptable economic costs.
 
 ---
 
-*Next: Chapter 30 — Inflation and Deflation*
+## Chapter Summary
+
+- The **Taylor rule** $i_t = r^n + \pi^* + 1.5(\pi_t-\pi^*) + 0.5\hat{x}_t$ is the operational benchmark for evaluating monetary policy; the Taylor principle ($\phi_\pi > 1$) is necessary for determinacy. Real-time data problems (Orphanides) and the declining neutral rate (Laubach-Williams) are the main practical challenges.
+
+- **Inflation targeting** — with operational independence, transparency, and accountability — has been adopted by more than 40 countries since 1990. Evidence suggests it reduced inflation levels and improved anchoring of expectations; **AIT** extends this by committing to make up for past below-target periods, aiming to raise average inflation and reduce ELB frequency.
+
+- **Quantitative easing** works through portfolio balance (removing duration from the market), signaling (committing to low rates), and market functioning (restoring liquidity). Empirical estimates place QE1's yield reduction at approximately 90 bps; pass-through to GDP is meaningful but modest (approximately 1% per $\$1.75$ trillion).
+
+- **Forward guidance** is theoretically the most powerful ELB tool, working through the IS curve's dependence on the entire expected rate path. The forward-guidance puzzle (implausibly large NK model effects) is resolved by cognitive discounting in the behavioral NK model. Outcome-based (Odyssean) guidance is more credibility-preserving than date-based guidance.
+
+- The **leaning versus cleaning** debate: the emerging consensus assigns financial stability primarily to macroprudential tools, with monetary policy as a backstop — while acknowledging that ignoring financial imbalances (as pre-2008 central banks largely did) is costly.
+
+---
+
+*Next: Chapter 30 — Inflation and Deflation: Causes, Consequences, and Cures*

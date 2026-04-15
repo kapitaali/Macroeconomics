@@ -419,7 +419,7 @@ Chapter 4 turns from the structure of games to the structure of the networks thr
 (c) Show that the Shapley value lies in the core.
 (d) Interpret the Shapley value allocation in terms of a cooperative enterprise governance principle.
 
-**★★ 3.6** Formalize the Kyoto Protocol as a cooperative game. Let $N$ be the set of signatory nations, each with abatement cost function $c_i(a_i)$ (convex, increasing in abatement level $a_i$) and benefit function $b(A)$ where $A = \sum_i a_i$ is total global abatement (concave, increasing). The characteristic function is $v(S) = \max_{\{a_i\}_{i \in S}} \left[\sum_{i \in S} b_i(A^S + A^{N\setminus S}^*) - c_i(a_i)\right]$ where $A^{N\setminus S}^*$ is the Nash equilibrium abatement of non-members.
+**★★ 3.6** Formalize the Kyoto Protocol as a cooperative game. Let $N$ be the set of signatory nations, each with abatement cost function $c_i(a_i)$ (convex, increasing in abatement level $a_i$) and benefit function $b(A)$ where $A = \sum_i a_i$ is total global abatement (concave, increasing). The characteristic function is $v(S) = \max_{\{a_i\}_{i \in S}} \left[\sum_{i \in S} b_i\left(A^S + (A^{N\setminus S})^*\right) - c_i(a_i)\right]$ where $(A^{N\setminus S})^*$ is the Nash equilibrium abatement of non-members.
 (a) Show that the game is superadditive.
 (b) Under what conditions on $c_i(\cdot)$ and $b(\cdot)$ is the game convex?
 (c) Show that when cost functions are heterogeneous, the core of the game without side payments may be empty.
