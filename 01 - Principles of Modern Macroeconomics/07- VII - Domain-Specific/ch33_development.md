@@ -5,114 +5,118 @@
 
 ---
 
-The study of economic development addresses perhaps the most morally urgent question in social science: why do some countries remain desperately poor while others have achieved high and rising living standards, and what — if anything — can public policy do to accelerate the process of development? The gap in living standards between the world's richest and poorest countries is staggering: real income per capita in Luxembourg is approximately 150 times that of Burundi; a child born in Norway can expect to live 35 years longer than one born in Chad. These differences are not explained by differences in natural resources or geography alone — many resource-rich countries remain poor, and many resource-poor countries have achieved sustained prosperity. Understanding the determinants of long-run development requires integrating growth theory (Chapter 5), institutional economics, and the specific challenges of economies undergoing structural transformation.
+The study of economic development addresses perhaps the most morally urgent question in social science: why do some countries remain desperately poor while others have achieved high and rising living standards, and what can public policy do to accelerate development? The gap is staggering: real income per capita in Luxembourg is approximately 150 times that of Burundi; life expectancy in Norway exceeds that in Chad by 35 years. These differences are not explained by natural resources or geography alone — many resource-rich countries remain poor, and many resource-poor countries (South Korea, Taiwan, Singapore) have achieved spectacular sustained growth. Understanding long-run development requires integrating growth theory [Ch. 5], structural transformation models, and the political economy of institutions.
 
 ---
 
 ## 33.1 Structural Transformation and the Lewis Model
 
-**Definition (Structural Transformation).** **Structural transformation** is the reallocation of economic activity across sectors — from agriculture to manufacturing to services — that accompanies economic development. It is typically measured by the shift of labor and capital out of low-productivity traditional agriculture and into higher-productivity modern industry and services. This reallocation is the proximate mechanism through which the aggregate productivity of developing economies rises even without any improvement in sector-specific technologies.
+**Definition (Structural Transformation).** **Structural transformation** is the reallocation of economic activity from agriculture to manufacturing to services that accompanies development, involving the shift of labor and capital from low-productivity traditional activities to higher-productivity modern production. It is the proximate mechanism through which aggregate productivity rises even without sector-specific technological change: moving workers from lower-productivity to higher-productivity sectors raises average productivity mechanically.
 
-The foundational model of structural transformation is due to Arthur Lewis (1954). Lewis postulated a **dual economy** with two sectors:
+### The Lewis Dual Economy
 
-**Traditional sector** (subsistence agriculture): labor is in elastic supply at the subsistence real wage $w^s$. The marginal product of labor in this sector is below $w^s$ — there is disguised unemployment, in the sense that some workers contribute less to output than they consume. This "surplus labor" can be drawn into the modern sector without any reduction in traditional sector output.
+The foundational model of structural transformation is Arthur Lewis (1954). Lewis postulated a dual economy with two sectors:
 
-**Modern sector** (capitalist industry): operates with standard diminishing returns technology and pays the market wage $w^M \geq w^s$ to attract workers from the traditional sector.
+**Traditional sector** (subsistence agriculture): labor supply is elastic at the subsistence wage $w^s$. The marginal product of labor is below $w^s$ — there is **disguised unemployment**, workers who contribute less to output than they consume. Surplus labor can transfer to the modern sector without reducing traditional output.
 
-The Lewis model implies that as long as surplus labor exists, the supply of labor to the modern sector is perfectly elastic at $w^s$. Capital accumulation and productivity growth in the modern sector expand employment and output without raising real wages — a prediction consistent with the experience of rapid industrialization in nineteenth-century Britain and twentieth-century East Asia, where real wages were roughly constant during the early stages of industrialization.
+**Modern sector** (capitalist industry): standard diminishing-returns technology; pays market wage $w^M \geq w^s$ to attract workers from the traditional sector.
 
-### Capital Accumulation and the Lewis Turning Point
+As long as surplus labor exists, the labor supply to the modern sector is perfectly elastic at $w^s$. Capital accumulation drives employment growth without raising wages — matching the experience of 19th-century industrializing Britain and 20th-century East Asia, where real wages were roughly constant during early industrialization while output and profits grew rapidly.
 
-In the Lewis framework, profits in the modern sector are reinvested: $\dot{K}^M = s^M\Pi^M$, where $\Pi^M = F(K^M, L^M) - w^s L^M$ is modern sector profit. As capital accumulates, the modern sector expands, absorbing surplus labor from the traditional sector. The dynamics:
+The dynamics: modern sector profits $\Pi^M = F(K^M, L^M) - w^s L^M$ are reinvested — $\dot{K}^M = s^M\Pi^M$ — expanding employment and absorbing surplus labor. Growth accelerates as capital accumulates.
 
-$$\dot{K}^M = s^M\bigl[F(K^M, L^M) - w^s L^M\bigr],$$
+### The Lewis Turning Point and Wage Growth
 
-where $L^M$ is endogenous (firms hire until marginal product equals $w^s$). Growth accelerates as capital accumulates and the labor supply remains elastic.
+The **Lewis turning point** occurs when traditional sector surplus labor is exhausted — all labor has migrated or the remaining agricultural workforce has a marginal product equal to $w^s$. Further modern sector expansion must attract workers by raising wages above $w^s$; wage growth accelerates. China's experience illustrates this transition precisely: hundreds of millions of rural surplus laborers were absorbed into coastal manufacturing from the 1980s at near-constant real wages; around 2010–12, wages began rising rapidly — consistent with China crossing its Lewis turning point and generating the subsequent shift toward domestic consumption-led growth.
 
-The **Lewis turning point** occurs when surplus labor in the traditional sector is exhausted — when all labor has migrated to the modern sector and the remaining traditional sector is no longer characterized by a below-subsistence marginal product. At this point, further expansion of the modern sector must attract workers by raising wages above $w^s$, and wage growth accelerates. The Lewis turning point is a critical transition in the development process: before it, growth is labor-absorbing with constant wages; after it, growth becomes wage-increasing with falling labor intensity.
+### Multi-Sector Structural Transformation
 
-China's experience since the 1980s is widely interpreted through the Lewis lens: rapid industrialization absorbed hundreds of millions of rural surplus laborers at near-constant real wages until approximately 2010–12, after which wages began rising rapidly — consistent with China approaching or crossing its Lewis turning point.
-
-### Structural Transformation in Multi-Sector Models
-
-Modern structural transformation models (Ngai and Pissarides, 2007; Acemoglu and Guerrieri, 2008) allow for differential productivity growth across sectors in a multi-sector framework. The key mechanism: when sectoral productivity growth rates differ, the Baumol cost disease operates — fast-growing sectors see prices fall and slow-growing sectors see prices rise (or stagnate). Labor reallocates toward the slow-growing service sector as relative prices shift, even as income growth from the fast-growing manufacturing sector raises overall welfare.
-
-Formally, with two sectors (manufacturing $M$ and services $S$), production:
-
-$$Y_M = A_M F(K_M, L_M), \quad Y_S = A_S G(K_S, L_S),$$
-
-with $\hat{A}_M > \hat{A}_S$ (faster productivity growth in manufacturing). Competitive pricing: $P_M/P_S = A_S/A_M$ falls over time. If manufacturing and services are complements in utility, rising manufacturing productivity shifts expenditure toward services, generating **tertiarization** (rising service sector employment share) despite faster manufacturing productivity growth.
+Modern structural transformation models (Ngai and Pissarides, 2007) introduce differential productivity growth across sectors in a multi-sector framework. The central mechanism: when manufacturing productivity grows faster than services ($\hat{A}_M > \hat{A}_S$), the relative price of manufactures falls; with non-unitary income elasticities, labor reallocates toward the slow-growing service sector even as overall income grows from productivity advances in manufacturing. This explains **tertiarization** — the rising service sector employment share — that characterizes advanced economies, and it implies that structural transformation is a persistent feature of development rather than a one-time transition.
 
 ---
 
 ## 33.2 Poverty Traps: Theory and Evidence
 
-A central question in development economics is why some poor countries remain poor over long periods despite apparent access to better technologies and institutions. The poverty trap hypothesis provides one explanation.
+**Definition (Poverty Trap).** A **poverty trap** is a self-reinforcing mechanism by which poverty perpetuates itself, generating multiple steady-state equilibria: a low-income stable equilibrium $y^{low}$, a high-income stable equilibrium $y^{high}$, and an unstable threshold $y^{mid}$ separating the basins of attraction. Countries below the threshold converge downward to $y^{low}$ regardless of gradual capital accumulation; escaping requires a discrete jump above $y^{mid}$.
 
-**Definition (Poverty Trap).** A **poverty trap** is a self-reinforcing mechanism whereby poor countries remain poor because poverty itself creates the conditions that perpetuate poverty. Formally, a poverty trap exists when the economy has multiple steady-state equilibria: a low-income equilibrium $y^{low}$ that is locally stable (small perturbations return to it) and a high-income equilibrium $y^{high}$ that is also locally stable, separated by an unstable equilibrium $y^{mid}$ that defines the boundary between basins of attraction.
-
-A simple poverty trap model: let the growth rate of per-capita income be $\dot{y}/y = f(y) - n$, where $f(y)$ is hump-shaped — increasing at low $y$ (due to increasing returns from capital accumulation, human capital complementarities, or agglomeration economies) and decreasing at high $y$ (diminishing returns eventually dominate). If $f(y^{low}) = n$ and $f(y^{high}) = n$ with $f(y^{mid}) = n$ between them:
-
-$$\text{Basin of attraction:} \quad y_0 < y^{mid} \implies y_t \to y^{low}; \quad y_0 > y^{mid} \implies y_t \to y^{high}.$$
-
-Countries starting below $y^{mid}$ cannot escape through gradual capital accumulation alone — they need a discrete jump above $y^{mid}$.
+The formal condition: the growth rate $\dot{y}/y = f(y) - n$ has a hump-shaped $f(y)$ — increasing at low $y$ (due to increasing returns from human capital complementarities, agglomeration economies, or infrastructure indivisibilities) and decreasing at high $y$ (diminishing returns eventually dominate). Multiple crossings of $f(y) = n$ generate multiple steady states.
 
 ### The Big Push
 
-Rosenstein-Rodan (1943) and Murphy, Shleifer, and Vishny (1989) formalize the **big push** theory: coordination failures can prevent a developing country from escaping a poverty trap even when individual investments would be profitable if undertaken simultaneously. The mechanism:
+Rosenstein-Rodan (1943) and Murphy, Shleifer, and Vishny (1989) formalize the **big push**: coordination failures can trap a developing country in the low equilibrium even when the high equilibrium is attainable through simultaneous investment across sectors. The mechanism:
 
-Consider $n$ sectors, each capable of industrializing (adopting increasing-returns technology) or remaining in subsistence. Industrialization in sector $i$ is profitable if and only if a sufficient fraction of other sectors have also industrialized (generating demand through income effects and input-output linkages). Multiple equilibria: a low-level trap (no sector industrializes because no others are) and a high-level equilibrium (all sectors industrialize because all others are).
+Consider $n$ sectors, each able to adopt increasing-returns industrialization. Industrialization in sector $i$ is profitable if and only if a sufficient fraction of other sectors have industrialized (generating wage income that becomes demand). Multiple equilibria emerge: a low equilibrium (no sector industrializes, so demand is insufficient for any sector to find industrialization profitable), and a high equilibrium (all sectors industrialize, generating mutual demand). The big push coordinates investment across sectors simultaneously, jumping the economy over the threshold.
 
-The big push is a policy intervention that coordinates investment across sectors simultaneously, jumping the economy from the low to the high equilibrium. International aid, industrial policy, and special economic zones can all be interpreted as big-push interventions that attempt to coordinate across sectors. The empirical evidence for big-push dynamics is mixed: some cluster-based development strategies (export processing zones, technology parks) have succeeded; others have failed to generate self-sustaining industrial agglomeration.
+Special economic zones, industrial parks, and export processing zones are practical big-push implementations. The evidence for this coordination rationale is mixed: successful cases (Shenzhen, Ireland's IDA industrial policy in the 1980s, South Korea's chaebols) coexist with many failures. The empirical challenge is that the big push requires precisely calibrated simultaneous intervention — too small and it fails to jump the threshold; too large and it simply subsidizes activity that would have occurred anyway.
+
+### The Randomized Evidence on Poverty Traps
+
+Banerjee and Duflo (2011) use randomized controlled trials (RCTs) to evaluate whether poverty traps exist at the household level. Their evidence challenges the simple threshold model: poor households do not universally exhibit the patterns predicted by poverty traps (such as high sensitivity of consumption to small income shocks near the threshold). Instead, many poor households display high returns to capital and productive opportunities constrained by liquidity, not by a poverty trap per se. This suggests that direct cash transfers or access to credit may be as effective as coordinated big-push interventions for individual households — though country-level coordination failures may still be important.
 
 ---
 
 ## 33.3 Institutions as the Fundamental Cause of Development
 
-The most influential paradigm in modern development economics holds that **institutions** — the formal rules (laws, contracts, property rights) and informal norms (trust, culture, cooperation) governing economic and political life — are the fundamental determinant of long-run income differences across countries.
+**Definition (Inclusive Institutions).** **Inclusive economic institutions** are those that protect property rights, enforce contracts, distribute economic power broadly, and create incentives for investment and innovation. Their political counterpart — **inclusive political institutions** — distribute political power sufficiently broadly to prevent narrow elites from extracting resources at the expense of long-run growth.
 
 ### The Colonial Origins of Institutions
 
-Acemoglu, Johnson, and Robinson (2001) provide the most compelling empirical evidence for the causal role of institutions. Their identification strategy: European colonizers established very different institutional environments depending on whether disease conditions allowed permanent settlement. In regions with low settler mortality (temperate zones: North America, New Zealand, Australia), Europeans settled permanently and established inclusive institutions — property rights, rule of law, representative governance — to protect their own interests as residents. In regions with high settler mortality (tropical Africa, Asia), Europeans established **extractive institutions** — designed to extract resources for the metropole with minimal permanent investment in local governance.
+Acemoglu, Johnson, and Robinson (2001) provide the most compelling empirical identification of the causal role of institutions. Their identification strategy exploits the fact that European colonizers established very different institutions depending on settler mortality from tropical disease (malaria, yellow fever, dysentery). Where settlers survived (temperate zones: North America, New Zealand, Australia), they created **inclusive** institutions — property rights, rule of law, representative governance — to protect their own interests as residents. Where settlers died in large numbers (tropical Africa and Asia), they established **extractive institutions** designed to extract resources for the metropole with minimal permanent investment.
 
-These colonial institutions persisted after independence: extractive institutions created path-dependent political and economic structures that continued to impede growth long after the colonizers departed. The instrument: settler mortality rates in the colonial period (from malaria, yellow fever, dysentery) are correlated with institutional quality today but have no direct effect on current income apart from through institutions. The IV estimate of the effect of institutional quality (measured by protection against expropriation risk) on log per-capita income:
+These colonial institutions persisted after independence through path-dependent political economy. The instrument: early settler mortality rates (documented from historical colonial records) are correlated with current institutional quality but have no direct effect on current income except through institutions. The IV estimate:
 
-$$\hat{\beta}_{inst}^{IV} \approx 1.0 \quad \text{(standard error} \approx 0.3).$$
+$$\hat{\beta}_{inst}^{IV} \approx 1.0 \quad \text{(s.e.} \approx 0.3),$$
 
-A one-unit increase in the expropriation protection index (on a 0–10 scale) is associated with approximately a doubling of per-capita income. This is an enormous effect: moving Nigeria's institutions to the level of Chile's is predicted to raise Nigerian income by approximately 7-fold.
+implying that a one-unit improvement in the expropriation protection index (0–10 scale) is associated with approximately a doubling of per-capita income — an enormous effect.
 
-### Inclusive Versus Extractive Institutions
+### The Virtuous and Vicious Cycles
 
-Acemoglu and Robinson (2012) elaborate the distinction between **inclusive institutions** — those that protect property rights, enforce contracts, and distribute political power broadly, creating incentives for investment and innovation — and **extractive institutions** — those that concentrate political and economic power in an elite that appropriates resources without creating the conditions for sustained growth.
+Acemoglu and Robinson (2012) develop the distinction between inclusive and **extractive institutions**: those concentrating political and economic power in an elite that appropriates resources without creating the conditions for sustained growth.
 
-The virtuous and vicious cycles:
+The **virtuous cycle** of inclusive institutions: broad property rights → investment incentives → economic growth → tax revenues → political stability → reinforcement of property rights. The **vicious cycle** of extractive institutions: concentrated political power → extractive economic institutions → elite resource appropriation → investment disincentives → poverty → weaker civil society → reinforcement of extractive institutions. The vicious cycle explains the persistence of low-income traps: external resource transfers and policy reforms that do not change the underlying extractive structure are captured by elites and reversed when external pressure is removed.
 
-**Virtuous cycle (inclusive institutions)**: broad property rights → investment incentives → economic growth → tax revenues → political stability → reinforcement of property rights.
-
-**Vicious cycle (extractive institutions)**: concentrated political power → extractive economic institutions → resource appropriation by elite → investment disincentives → poverty → weaker civil society → reinforcement of extractive political institutions.
-
-The vicious cycle explains the persistence of low-income equilibria. It also explains why foreign aid, technical assistance, and structural adjustment programs often fail: they provide resources or change policies without addressing the underlying extractive institutional structure that appropriates those resources and reverses policy changes when the external pressure is removed.
+The critical-junctures hypothesis: institutions change not gradually but at historically contingent moments — wars, pandemics, technological disruptions — that disturb existing power balances sufficiently to allow institutional reform. The Black Death (which shifted bargaining power toward labor and weakened feudal institutions in Western Europe), the Atlantic trade (which strengthened merchant classes and proto-liberal institutions in Western Europe), and decolonization all represent critical junctures in institutional evolution.
 
 ---
 
 ## 33.4 Geographic and Cultural Factors
 
-While institutions are powerful, geography and culture also contribute to explaining cross-country income differences, though the channels are contested.
+### Geography and Disease
 
-**Geography and disease**: tropical climates support disease vectors (malaria, schistosomiasis) that reduce labor productivity and impose large human capital costs. Sachs (2003) argues that geography has a direct effect on income beyond its influence on institutions — the disease burden, agricultural productivity of tropical soils, and remoteness from coast all independently reduce income. Diamond (1997) traces the ultimate cause of current income differences to biogeographic accidents of the Neolithic revolution: the availability of domesticable plants and animals in Eurasia allowed the development of dense agricultural societies, writing, and state formation much earlier than in the Americas or Africa.
+Tropical climates support disease vectors that reduce labor productivity and impose large human capital costs. Sachs (2003) argues that geography has a direct effect on income beyond its influence on institutions: malaria prevalence, agricultural productivity of tropical soils, and remoteness from coast reduce income through channels that operate independently of institutional quality. The Diamond (1997) hypothesis goes further: the ultimate determinants of current income differences are the biogeographic endowments of the Neolithic revolution — the availability of domesticable plants and animals in Eurasia allowed earlier state formation, denser populations, and more sustained technological accumulation than was possible in sub-Saharan Africa, the Americas, or Oceania.
 
-**Culture and social capital**: Guido Tabellini (2010) and Nathan Nunn and collaborators document persistent effects of historical cultural transmission — including trust, family ties, and gender attitudes — on contemporary economic performance. Regions within Europe where the Catholic Church established strong local governance in the medieval period have higher social capital and income today than regions where governance was weak. These effects of culture on economics operate through trust (high trust reduces transaction costs, facilitating market exchange) and norms (cooperative norms enable collective action that markets alone cannot provide).
+The debate between the geography-first view (Sachs, Diamond) and the institutions-first view (Acemoglu et al.) has not been fully resolved. Most researchers accept that both channels are active and that the empirical challenge is assigning magnitudes, not choosing between them.
+
+### Culture, Trust, and Social Capital
+
+Putnam (1993) argues that **social capital** — trust, reciprocity norms, and civic engagement — is a primary determinant of economic performance, with Italian regions having more social capital (measured by voluntary association membership, newspaper readership, and political participation in the medieval period) exhibiting higher modern income and government effectiveness. Guido Tabellini (2010) and Nathan Nunn (with various collaborators) document long-run persistence of cultural traits: regions in Europe where the medieval Catholic Church established strong participatory governance institutions have higher social capital and income today; African communities with higher pre-colonial exposure to the slave trade show lower contemporary levels of trust and civic engagement.
+
+The mechanism: culture affects economics through trust (reducing transaction costs of market exchange and collective action) and norms (enabling cooperative behavior in situations where formal contracts are incomplete or unenforceable). These channels are empirically separable from institutions, though they are often jointly determined through historical processes.
 
 ---
 
 ## 33.5 The Washington Consensus and Beyond
 
-The **Washington Consensus** (Williamson, 1990) — the set of policy reforms prescribed for developing countries by the IMF and World Bank in the 1980s–90s — reflected the view that poor country governments had failed through excessive intervention, and that market liberalization, privatization, and fiscal austerity would unlock growth. The ten prescriptions: fiscal discipline, reorientation of public expenditure priorities, tax reform, interest rate liberalization, competitive exchange rates, trade liberalization, foreign investment liberalization, privatization, deregulation, and secure property rights.
+The **Washington Consensus** (Williamson, 1990) — the 10-point policy template advocated by the IMF and World Bank for developing countries — reflected the view that government intervention had been excessive and that market liberalization would unlock growth. The empirical record was disappointing: Latin American countries implementing the reforms experienced the "lost decade," and East Asian economies that grew most rapidly (Korea, Taiwan, China) maintained active industrial policies and capital controls that directly violated the template.
 
-The empirical record was disappointing. Latin American countries that implemented Washington Consensus reforms in the 1980s–90s experienced the "lost decade" — stagnant growth, rising inequality, and financial crises (Mexico 1994, Brazil 1999, Argentina 2001). Sub-Saharan Africa did not grow rapidly despite structural adjustment. East Asian economies that grew most rapidly (Korea, Taiwan, China) maintained industrial policies and capital controls that directly violated Washington Consensus prescriptions.
+Rodrik (2007) argues that the Washington Consensus failed because it applied a one-size-fits-all template rather than diagnosing the specific **binding constraints** in each economy. The growth diagnostics framework identifies the constraint that is most limiting growth: in some countries it is financing (high cost of capital); in others, infrastructure (high transport costs); in others, human capital (skill shortages); in others, institutions (property rights insecurity); in others, demand (small home market). The appropriate policy depends on which constraint is binding — there is no universal template.
 
-Rodrik (2007) and Dani Rodrik's broader work on **growth diagnostics** argue that the Washington Consensus failed because it applied a one-size-fits-all template rather than diagnosing the specific binding constraints in each economy. In some countries the binding constraint is finance (high cost of capital); in others, infrastructure (high transport costs); in others, human capital (skill shortages); in others, institutions (property rights). The appropriate policy package depends on which constraint is binding, not on an abstract template.
+The post-Washington Consensus has also incorporated the developmental state view: industrial policy and directed credit, when implemented with the right institutional complements (meritocratic bureaucracy, export discipline, competition policy), can accelerate structural transformation in ways that pure market mechanisms cannot. The East Asian developmental states are the empirical success stories; the challenge is identifying the institutional preconditions for successful industrial policy rather than rent-seeking by politically connected firms.
 
 ---
 
-*Next: Chapter 34 — Financial Crises and Regulation*
+## Chapter Summary
+
+- **Structural transformation** (Lewis, 1954) involves absorption of surplus labor from traditional agriculture into modern manufacturing at constant real wages, until the **Lewis turning point** when surplus is exhausted and wages accelerate. China's experience 1980s–2010s is the clearest modern illustration.
+
+- **Poverty traps** with multiple steady states arise from increasing returns at low income levels; the **big push** (Murphy-Shleifer-Vishny) addresses the coordination failure through simultaneous sectoral investment. RCT evidence suggests household-level traps are less prevalent than macro traps, with access to credit and direct transfers being effective complements.
+
+- **Inclusive institutions** — protecting property rights, distributing political power, enforcing contracts — are the most important determinant of long-run income. AJR's settler mortality IV identifies a large causal effect ($\hat{\beta}^{IV} \approx 1.0$). The vicious cycle of extractive institutions explains cross-country persistence of poverty.
+
+- Geography (disease burden, agricultural endowments) and culture (trust, norms) have independent effects on income, with the magnitude relative to institutions remaining empirically contested.
+
+- The **Washington Consensus** underperformed in Latin America and Africa while East Asian growth occurred under active industrial policy; **growth diagnostics** (Rodrik) identifies country-specific binding constraints as the appropriate analytical framework.
+
+---
+
+*Next: Chapter 34 — Financial Crises and Regulation: Lessons from History*

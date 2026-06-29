@@ -1,0 +1,38 @@
+⍝ APL — Impulse response function from state-space system
+⎕IO←0 ⋄ ⎕ML←1
+A ← 2 2 ⍴ 0.9 0.1 0.0 0.8    ⍝ transition matrix
+B ← 2 1 ⍴ 0.5 0.3             ⍝ shock loading vector
+H ← 20                         ⍝ horizons
+⍝ IRF: {A^h × B} for h=0,1,...,H-1
+irf ← {(A⍣⍵) +.× B} ¨ ⍳ H   ⍝ apply A^h each, using ⍣h
+⍝ Stack into H×2 matrix
+⊃ irf
+)OFF
+⎕IO←0
+A ← 2 2 ⍴ 0.9 0.1 0.0 0.8    ⍝ transition matrix
+B ← 2 1 ⍴ 0.5 0.3             ⍝ shock loading vector
+H ← 20                         ⍝ horizons
+⍝ IRF: {A^h × B} for h=0,1,...,H-1
+irf ← {(A⍣⍵) +.× B} ¨ ⍳ H   ⍝ apply A^h each, using ⍣h
+⍝ Stack into H×2 matrix
+)OFF
+⎕IO←0
+A ← 2 2 ⍴ 0.9 0.1 0.0 0.8   ⍝ transition matrix
+B ← 0.5 0.3                 ⍝ simplified shock vector (1D is easier to stack)
+H ← 20                      ⍝ horizons
+⍝ IRF calculation: apply the function (A+.×) ⍵ times to B
+⍝ We use {( (A+.×)⍣⍵ ) B} to treat the transition as a repeated function
+irf ← { ( (A+.×)⍣⍵ ) B } ¨ ⍳ H
+⍝ Use Mix (↑) to turn the vector of vectors into an H×2 matrix
+↑ irf
+)OFF
+⎕IO←0
+A ← 2 2 ⍴ 0.9 0.1 0.0 0.8
+B ← 0.5 0.3                ⍝ Keep B as a simple vector for easier stacking
+H ← 20
+⍝ Remove the ∘ binding. Just let A be the left argument.
+⍝ (A +.×⍣⍵) B means: Apply (A +.×) to B, ⍵ times.
+irf ← { (A +.×⍣⍵) B } ¨ ⍳ H
+⎕← '--- IRF Results (First 5 Horizons) ---'
+⎕← ↑ 5 ↑ irf
+)OFF

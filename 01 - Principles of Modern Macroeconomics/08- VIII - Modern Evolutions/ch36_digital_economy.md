@@ -5,105 +5,109 @@
 
 ---
 
-The digital revolution — the rapid diffusion of information and communication technology (ICT), the internet, smartphones, and artificial intelligence — is arguably the most transformative technological development since electrification. Yet its macroeconomic consequences are deeply puzzling. Despite obvious evidence of technological progress in the digital sphere (processing power has doubled roughly every two years since 1960; internet connectivity has spread to more than half the world's population; AI systems can now perform tasks that seemed impossible a decade ago), the aggregate productivity growth statistics of most advanced economies have been remarkably slow since the 1970s. Understanding this "productivity paradox" — and thinking rigorously about where digital technology is actually taking the macroeconomy — is one of the most important challenges in contemporary macroeconomics.
+The digital revolution — the rapid diffusion of information and communication technology (ICT), the internet, smartphones, and artificial intelligence — is arguably the most transformative technological development since electrification. Yet its macroeconomic consequences are deeply puzzling. Despite obvious evidence of technological progress in the digital sphere (processing power has doubled roughly every two years since 1960; internet connectivity has spread to more than half the world's population; large language models now perform tasks that seemed impossible a decade ago), aggregate productivity growth statistics in most advanced economies have been remarkably slow since the mid-1970s. Understanding this productivity paradox — and thinking rigorously about where digital technology is actually taking the macroeconomy — is one of the most important challenges in contemporary macroeconomics.
 
 ---
 
 ## 36.1 The Productivity Paradox and Its Resolution
 
-In 1987, Robert Solow famously observed that "you can see the computer age everywhere except in the productivity statistics." U.S. total factor productivity (TFP) growth, which averaged approximately 1.9% per year during 1948–73, slowed to approximately 0.7% per year during 1973–95 — precisely the period during which the personal computer, the internet, and digital telecommunications were being adopted widely. This is the **productivity paradox**: rapid technological change appears inconsistent with slow measured productivity growth.
+### The Facts
 
-The paradox has three complementary resolutions, each with different quantitative importance.
+Robert Solow's 1987 observation — "you can see the computer age everywhere except in the productivity statistics" — identified the central puzzle. U.S. total factor productivity growth averaged approximately 1.9% per year during 1948–73, slowed to approximately 0.7% per year during 1973–95 — precisely the period of personal computer and internet diffusion — and then briefly accelerated to approximately 1.5% during 1995–2004 before declining again to approximately 0.5–0.7% annually from 2004 onward.
+
+This pattern requires explanation: why would the greatest information technology revolution in history generate such modest aggregate productivity gains?
 
 ### Resolution 1: Measurement Error
 
 Digital goods and services provide large increases in quality and variety that standard price deflators fail to capture, causing real GDP and TFP growth to be systematically understated.
 
-Consider smartphones. The price of a smartphone (at comparable functionality) has fallen dramatically — but measured CPI smartphone prices have fallen far less than hedonic quality adjustments would suggest, because the quality adjustments in national accounts use crude proxies for the rapidly improving quality of digital goods. Byrne, Fernald, and Reinsdorf (2016) estimate that mismeasurement of ICT prices and quality may account for approximately 0.5–1.0 percentage point of unmeasured TFP growth per year in the United States — a substantial fraction of the productivity slowdown.
+Consider smartphones. The price of a smartphone at comparable functionality has fallen dramatically, but measured CPI smartphone prices have fallen far less than hedonic quality adjustments would suggest, because the methodology for quality adjustment cannot fully keep pace with the speed of improvement. Byrne, Fernald, and Reinsdorf (2016) estimate that mismeasurement of ICT prices and quality may account for approximately 0.5–1.0 percentage point of unmeasured TFP growth per year — a substantial fraction of the observed slowdown.
 
-The **consumer surplus** from free digital services (Google search, social media, email) is entirely absent from GDP, because these services are provided at zero monetary price in exchange for user attention and data. Nakamura, Samuels, and Soloveichik (2017) estimate the value of free digital services at approximately 0.5% of GDP per year — not in GDP but real in welfare terms. Brynjolfsson and Oh (2012) estimate the consumer surplus from Facebook alone at approximately $1,000 per user per year. These unmeasured benefits are real welfare gains that the productivity statistics miss.
+The **free digital services** problem is equally significant: Google Search, Gmail, Facebook, Wikipedia, and YouTube are provided at zero monetary price in exchange for attention and data. Their economic value to users is entirely absent from GDP, since GDP measures only marketed transactions. Brynjolfsson et al. (2019) use randomized controlled experiments to value free digital services: participants required compensation of approximately $17,500 per year to give up internet access, and approximately $8,400 to give up search. These consumer surplus flows represent real welfare gains invisible to productivity statistics.
 
-### Resolution 2: Implementation Lags — The General-Purpose Technology Hypothesis
+### Resolution 2: The General-Purpose Technology Diffusion Lag
 
-**Definition (General-Purpose Technology).** A **general-purpose technology (GPT)** is a technology that: (i) is **pervasive** — used across many sectors of the economy; (ii) is **dynamic** — continuously improving over time; and (iii) generates **innovation complementarities** — stimulates complementary innovations and investments in downstream sectors that together produce the productivity benefits.
+**Definition (General-Purpose Technology).** A **general-purpose technology (GPT)** is a technology that is: (i) **pervasive** — applicable across many sectors of the economy; (ii) **dynamic** — continuously improving over time; and (iii) generates **innovation complementarities** — stimulating complementary investments and innovations in downstream sectors that together produce the productivity benefits.
 
-The canonical GPTs are the steam engine, electricity, and ICT (Bresnahan and Trajtenberg, 1995). A key feature of GPTs is that their productivity benefits emerge only after a long diffusion phase during which complementary investments — organizational changes, workforce retraining, new business models, physical infrastructure — are made throughout the economy.
+The canonical GPTs are the steam engine, electricity, and ICT. Bresnahan and Trajtenberg (1995) develop the GPT model formally: a new GPT generates a wave of complementary innovations — new products, processes, business models, organizational forms — that take years or decades to implement. The result is a diffusion pattern characterized by slow initial productivity growth (as complementary investments are being made) followed by an acceleration (when the complementary investments are in place and the full GPT productivity benefits materialize).
 
-Helpman and Trajtenberg (1998) model the GPT productivity cycle explicitly:
+David (1990) documents the electricity analogy in detail: electric motors were commercially available from the 1880s, but U.S. manufacturing productivity did not accelerate meaningfully until the 1920s–30s — a 40-year lag. The delay reflected the need to redesign factories from centralized shaft-and-belt power transmission to the flexible motor-per-machine layout that fully exploited electricity's advantages, a redesign that required replacement of the existing capital stock, workforce retraining, and complementary organizational changes (including scientific management techniques). The U.S. productivity acceleration of 1995–2004 — concentrated in ICT-producing industries and IT-intensive services — is consistent with the GPT hypothesis: the complementary investments and organizational changes were finally in place.
 
-$$g_t = \begin{cases} g^{low} & t \in [0, T] \quad \text{(diffusion phase: adoption without full complementaries)} \\ g^{high} > g^{low} & t > T \quad \text{(exploitation phase: full complementaries in place)} \end{cases}$$
+### Resolution 3: Sectoral Concentration
 
-The electricity analogy is instructive: electric motors were commercially available from the 1880s, but U.S. manufacturing productivity did not accelerate until the 1920s–30s, after factories had been redesigned from centralized shaft-and-belt power transmission to flexible, motor-per-machine layouts, and after the workforce had been retrained (David, 1990). The 40-year lag between invention and productivity payoff is consistent with the hypothesis that ICT is in a similar pre-acceleration phase.
+The U.S. productivity acceleration of 1995–2004 was narrowly concentrated in ICT-producing industries (computers, semiconductors, communications equipment) and IT-intensive service sectors (wholesale and retail trade, securities). Non-IT-using sectors — healthcare, education, construction, government — showed negligible productivity improvement. Baumol's cost disease implies that as productivity growth concentrates in a shrinking share of sectors, the aggregate growth rate is pulled down by the slower-growing sectors even as the fast sectors become more productive.
 
-The 1995–2004 U.S. productivity acceleration — TFP growth averaging approximately 1.5% per year, driven by ICT production and IT-intensive services (wholesale trade, retail trade, securities) — is consistent with the GPT hypothesis: the exploitation phase of the internet and early networked computing was materializing.
-
-### Resolution 3: Non-ICT Sectors
-
-The U.S. productivity acceleration of 1995–2004 was narrowly concentrated. Baily and Lawrence (2001) and Bosworth and Triplett (2007) show that the acceleration was driven almost entirely by ICT-producing industries (computers, semiconductors, communications equipment) and IT-using services (wholesale, retail, financial services). Non-IT-using sectors — healthcare, education, construction, government — showed negligible productivity improvement. The aggregate slowdown since 2004 largely reflects the exhaustion of the burst of IT-related productivity gains in specific sectors, not a broad technological stagnation.
+The post-2004 slowdown therefore partly reflects the sectoral exhaustion of the initial ICT productivity burst, not a broad technological stagnation — a distinction with different policy implications.
 
 ---
 
 ## 36.2 Automation, Task Displacement, and the Labor Market
 
-The macroeconomic consequences of automation for the labor market are among the most contested empirical questions in contemporary economics. The debate has two dimensions: the short-run distributional effects of automation (which workers and industries bear the costs and which gain?) and the long-run employment effects (does automation reduce aggregate employment or merely shift it?).
-
 ### The Task-Based Framework
 
-Acemoglu and Restrepo (2018, 2019) develop a **task-based framework** that distinguishes between tasks (specific activities that produce output) and factors of production (labor, capital). Automation is the process by which capital replaces labor in tasks previously performed by workers. The key insight: automation affects wages through two channels with opposite signs.
+Acemoglu and Restrepo (2018, 2019) develop a **task-based framework** distinguishing between tasks (specific activities producing output) and factors (labor, capital). Automation is the process by which capital displaces labor from tasks previously performed by workers. The wage effect operates through two channels:
 
-The **displacement effect**: when capital takes over tasks previously done by labor, the demand for labor in those tasks falls. With a fixed supply of workers, the wage falls to restore equilibrium. The displacement effect is negative for wages.
+**Displacement effect**: capital's takeover of previously labor-performed tasks reduces demand for labor in those tasks, lowering wages (holding labor supply constant).
 
-The **productivity effect**: automation increases output in the tasks where capital replaces labor, raising the firm's revenue and hence the demand for workers in non-automated tasks. The productivity effect raises wages.
+**Productivity effect**: automation raises output per worker in automated tasks, increasing revenue and hence demand for workers in non-automated tasks, pushing wages up.
 
-The **reinstatement effect**: automation may create entirely new tasks — tasks that are complementary to the new automated processes but performed by humans. The reinstatement of labor in new tasks partially offsets displacement. Historical examples: factory workers displaced by power looms were partially reinstated as machine operators, repair technicians, and factory supervisors — new tasks created by the technology itself.
+**Reinstatement effect**: automation creates new tasks — activities complementary to the new automated processes but performed by humans. Historical reinstatement: factory workers displaced by power looms were partly reinstated as machine operators, maintenance workers, and factory supervisors. The net employment and wage effect of automation depends on the relative magnitudes of displacement and reinstatement.
 
-Whether automation raises or lowers the wage depends on the relative magnitudes of the displacement and productivity effects, and the extent of reinstatement. Acemoglu and Restrepo estimate that approximately 50–70% of the increase in the college-non-college wage premium since 1980 can be attributed to automation of routine tasks predominantly performed by non-college workers.
+Acemoglu and Restrepo estimate that approximately 50–70% of the increase in the college-non-college wage premium since 1980 can be attributed to the automation of routine tasks predominantly performed by non-college workers — a quantitatively large contribution to rising inequality that operates through a well-defined mechanism.
 
 ### Labor Market Polarization
 
-Autor, Levy, and Murnane (2003) document **labor market polarization**: employment has grown at the top (non-routine cognitive tasks: managers, professionals, technicians) and at the bottom (non-routine manual tasks: personal services, home health aides) but has hollowed out in the middle (routine cognitive and manual tasks: clerks, assembly workers, data entry). This polarization is consistent with the task-based framework: middle-skill routine tasks are most easily automated (computers excel at rule-based processing), while non-routine tasks at both ends of the skill spectrum are harder to automate.
+Autor, Levy, and Murnane (2003) document **labor market polarization**: employment has grown at both the top (non-routine cognitive tasks: managers, professionals, technicians) and the bottom (non-routine manual tasks: personal care, food service, cleaning) but has hollowed out in the middle (routine cognitive and manual tasks: clerical work, assembly, data processing). The polarization is consistent with the task-based framework: middle-skill routine tasks are most easily computerized (computer programs excel at rule-based processing), while non-routine cognitive tasks at the top and non-routine manual tasks at the bottom require judgment, flexibility, or physical dexterity that computers cannot easily replicate.
 
-The polarization hypothesis predicts that income inequality should increase between the top and middle of the skill distribution (as routine middle-skill workers face competition from automation) and may decrease between the middle and bottom (as non-routine manual workers are not easily automated). This is broadly consistent with the U-shaped income distribution dynamics observed in several advanced economies.
+The U-shaped employment distribution has a corresponding income distribution implication: the college premium rises (reflecting demand for non-routine cognitive skills), while personal service wages are supported by the non-routinizability of their tasks. The middle of the skill distribution — historically the backbone of the middle class — is being squeezed from both above and below, consistent with the political economy of populism that has characterized many advanced economies since the 2000s.
 
 ---
 
 ## 36.3 Artificial Intelligence as a General-Purpose Technology
 
-The current wave of AI — based on large language models (LLMs), deep neural networks, and reinforcement learning — represents a qualitative advance beyond the ICT of the 1990s. Whether AI will generate a new productivity acceleration, and through which mechanisms, is the central macroeconomic question of the 2020s.
+### AI's GPT Characteristics
 
-### AI as GPT
+The current wave of AI — large language models, deep neural networks, reinforcement learning, computer vision — represents a qualitative advance beyond the ICT of the 1990s. It displays all three GPT characteristics. **Pervasiveness**: AI is being applied to medicine, law, software development, customer service, scientific research, logistics, education, creative work, and virtually every knowledge-intensive sector. **Dynamism**: performance on standardized cognitive benchmarks has improved at extraordinary rates — ChatGPT (November 2022) scored approximately at the 90th percentile of bar exam takers; GPT-4 (March 2023) exceeded the 99th percentile. **Innovation complementarities**: AI enables new business models (personalized medicine, precision agriculture, automated legal discovery, generative design) that require complementary investments in data infrastructure, regulatory frameworks, and workforce adaptation.
 
-AI has all three GPT characteristics. It is **pervasive**: AI capabilities are being applied to medicine, law, software development, customer service, creative work, scientific research, logistics, and virtually every other sector. It is **dynamic**: capabilities have been improving at extraordinary rates — performance on standardized cognitive benchmarks has doubled roughly every few months for recent frontier LLMs. And it generates **innovation complementarities**: AI enables new business models (personalized medicine, precision agriculture, automated legal discovery) that require complementary investments in data infrastructure, workforce retraining, and regulatory adaptation.
+Aghion, Jones, and Jones (2019) formalize how AI enters the growth model. If AI can substitute for human cognition in an increasing range of tasks and if the production function has Baumol complementarities (aggregate output is limited by the least-productive input), then AI-driven acceleration in cognitive tasks could eventually generate a discontinuous jump in aggregate TFP growth — a "singularity" of the growth model. Whether this emerges, and on what timeline, depends critically on the pace of complementary investment and on whether the least-productive bottleneck activities can themselves be automated.
 
-Aghion, Jones, and Jones (2019) formalize how AI enters the growth framework. If AI can substitute for human cognition in an increasing range of tasks, and if the aggregate production function has Baumol-style complementarities (the output is limited by the growth of the least-productive input), then AI acceleration in cognitive tasks could generate a discontinuous jump in aggregate productivity — but only after the complementary investments and institutional adaptations are in place.
+### Labor Market Implications of AI
 
-### The Policy Implications
+The task-based framework yields more nuanced predictions for AI than simple displacement narratives suggest. AI is a **non-routine cognitive task** automator — precisely the category that previous automation (computers, robotics) could *not* address. While previous automation hollowed out the middle, AI threatens the top of the skill distribution: lawyers, radiologists, accountants, software developers, and writers face task displacement from AI for the first time. The reinstatement effect is uncertain: it depends on whether AI-enabled economic growth creates new complementary tasks at a pace sufficient to absorb displaced knowledge workers.
 
-The macroeconomic policy challenges of the AI transition include:
-
-**Labor market adjustment support**: if AI displaces large numbers of workers from routine cognitive tasks (lawyers, accountants, radiologists, coders, writers), the social insurance system must be capable of supporting displaced workers during the retraining period. UI extensions, retraining subsidies, and portable benefits (decoupled from specific employers) are the relevant policy instruments.
-
-**Measurement reform**: national accounts will need significant reform to capture the productivity gains from AI, which may not appear in standard market transactions (free AI services, improvements in product quality not captured by price indices).
-
-**Competition policy**: if AI capabilities are highly concentrated in a few large technology firms (as current market structure suggests), the distribution of AI's productivity gains may be highly unequal, raising competition policy and antitrust questions.
-
-**Fiscal implications**: if AI dramatically raises aggregate productivity, it could solve long-term fiscal sustainability problems (higher growth → larger tax base → easier debt service). But if AI primarily benefits capital over labor, factor income shares shift toward capital, potentially reducing labor income tax revenues even if aggregate output grows. The distributional and fiscal implications of AI are highly uncertain and depend on the specific form of AI's factor-augmenting properties.
+Acemoglu (2024) argues that the current AI wave is generating displacement faster than reinstatement, with the productivity and task-creation effects lagging. The evidence for this is the absence — so far — of measurable AI-driven TFP acceleration in aggregate data, despite substantial investment in AI infrastructure since 2022. This is consistent with the GPT diffusion lag hypothesis: the complementary organizational changes needed to fully exploit AI capabilities (redesigning workflows, retraining workers, regulatory adaptation) are still being made.
 
 ---
 
-## 36.4 Platform Economics and Market Structure
+## 36.4 Platform Economics, Market Structure, and the Labor Share
 
-A distinctive feature of the digital economy is the prevalence of **platform markets** — markets in which a firm creates value by facilitating transactions between two or more distinct groups of users. Search engines connect users with advertisers; e-commerce platforms connect buyers and sellers; ride-sharing apps connect drivers and passengers. Platform markets have fundamentally different economics from traditional goods markets.
+### Network Effects and Winner-Take-Most Dynamics
 
-**Definition (Network Effects).** **Network effects** (or network externalities) are externalities in which the value of a product or platform to a user increases with the number of other users. Positive direct network effects: the value of a messaging app increases with the number of people who can be reached through it. Positive indirect network effects: the value of an operating system platform to developers increases with the number of users (larger market for apps), and the value to users increases with the number of apps (more complementary products).
+**Definition (Network Effects).** **Network effects** (or network externalities) are externalities in which the value of a product or platform to a user increases with the number of other users. **Direct network effects**: a messaging platform is more valuable when more people use it. **Indirect network effects**: a software platform is more valuable to developers as the user base grows (larger market for apps) and more valuable to users as more apps are developed (more complementary products). Network effects create **winner-take-most dynamics**: early movers' advantages compound through network effects, tendencies toward market concentration that differ fundamentally from the competitive markets assumed in standard macroeconomic models.
 
-Network effects create **winner-take-most dynamics**: early-mover advantages compound through network effects until one or a few firms dominate the market. This tendency toward market concentration is a fundamental feature of digital markets that differs from the competitive markets assumed in standard macroeconomic models.
+### Superstar Firms, Markups, and the Declining Labor Share
 
-### Superstar Firms and Declining Labor Share
+Autor, Dorn, Katz, Patterson, and Van Reenen (2020) document the **rise of superstar firms**: the most productive firms in each industry have captured increasing market shares since the 1980s, coinciding with declining labor income shares within those industries. The mechanism: technological and globalization shocks intensified "winner-take-most" competition, allowing the most efficient producers to dominate their markets. Superstar firms substitute capital for labor more effectively than average firms, so their rising market share reduces the aggregate labor share even if each individual firm's labor share is unchanged.
 
-Autor, Dorn, Katz, Patterson, and Van Reenen (2020) document the **rise of superstar firms** — the most productive firms in each industry have captured increasing market shares since the 1980s, coinciding with declining labor shares of income in those industries. Their interpretation: technological and globalization shocks have intensified "winner-take-most" competition, allowing the most efficient producers to capture larger shares. Superstar firms have lower labor shares (they substitute capital for labor more effectively), so their rising market share reduces the aggregate labor share even holding each firm's labor share constant.
+De Loecker, Eeckhout, and Unger (2020) document that average markups in the U.S. economy rose from approximately 21% above marginal cost in 1980 to approximately 61% above marginal cost in 2016 — a dramatic increase consistent with rising market power. Rising markups reduce the labor share of income (as the price-to-cost margin expands), reduce investment (if monopoly rents reduce the incentive to expand capacity), and potentially slow TFP growth (by distorting resource allocation toward high-markup, low-output incumbent firms rather than more productive entrants).
 
-This connection between market structure, technological change, and factor income distribution is quantitatively important: De Loecker, Eeckhout, and Unger (2020) document that average markups in the U.S. economy rose from approximately 21% above marginal cost in 1980 to approximately 61% above marginal cost in 2016 — a dramatic increase consistent with rising market power. Rising markups reduce the labor share, reduce investment (if the substitution effect dominates), and slow TFP growth (by distorting resource allocation toward high-markup, low-output firms).
+### Policy Implications of Digital Market Concentration
+
+The combination of network effects, data advantages, and platform control has concentrated digital markets in ways that raise new antitrust and competition policy questions. Standard antitrust frameworks, designed around price effects in well-defined markets, struggle with platforms that offer services at zero monetary price (so there is no price to evaluate) and compete in multi-sided markets (where the welfare analysis requires simultaneous consideration of all user groups). The emerging approach — developed by Tirole (2014) and others — focuses on access, interoperability, and the barriers to entry created by data accumulation, rather than solely on pricing.
+
+Macroeconomically, the rising concentration in digital markets has fiscal implications: if a small number of highly profitable firms capture an increasing share of economic rents, the distribution of those rents between labor and capital — and the tax treatment of corporate profits versus labor income — becomes an increasingly important determinant of aggregate demand and inequality.
+
+---
+
+## Chapter Summary
+
+- The **productivity paradox** — slow aggregate TFP growth despite rapid ICT advance — has three complementary resolutions: measurement error (unmeasured quality improvements in ICT, unpriced free services); the **GPT diffusion lag** (Bresnahan-Trajtenberg: complementary investments take decades; the electricity analogy predicts a 30–40-year lag from invention to productivity acceleration); and sectoral concentration (the 1995–2004 productivity acceleration was confined to ICT-producing and IT-intensive service sectors).
+
+- The **task-based framework** (Acemoglu-Restrepo) distinguishes displacement (automation reduces labor demand in automated tasks), productivity (higher output raises demand for non-automated tasks), and reinstatement (new tasks created by automation) effects on wages. Automation of routine middle-skill tasks explains 50–70% of the rising college wage premium since 1980; **labor market polarization** has hollowed out middle-skill employment.
+
+- **AI** has all three GPT characteristics (pervasive, dynamic, innovation complementarities). Unlike previous automation that spared non-routine cognitive tasks, AI threatens knowledge workers. Whether reinstatement exceeds displacement depends on the pace of complementary investment and organizational adaptation; the absence of measured AI TFP acceleration so far is consistent with the GPT diffusion lag.
+
+- **Network effects** generate winner-take-most dynamics; **superstar firms** capturing rising market shares reduce the aggregate labor share even without changing individual firm labor shares. Rising markups from 21% to 61% (1980–2016, De Loecker-Eeckhout-Unger) have redistributed income from labor to capital and may be reducing investment and TFP growth by protecting incumbents.
 
 ---
 

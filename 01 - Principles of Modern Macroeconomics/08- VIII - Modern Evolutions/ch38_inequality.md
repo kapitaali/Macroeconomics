@@ -1,30 +1,37 @@
 # Chapter 38 — Inequality and Macroeconomics: Distributional Effects of Policy
 
+> *"The issue is never whether there will be trade-offs. The question is always: who bears them?"*
+> — Arthur Okun, *Equality and Efficiency: The Big Tradeoff*, 1975
+
 ---
 
-The standard macroeconomic models developed in this book — from the Solow growth model to the New Keynesian three-equation system — typically feature a representative household. By assumption, these models produce no distributional outcomes: there is only one household, so there is nothing to distribute. This abstraction is analytically convenient but empirically and normatively problematic. In the real world, income and wealth are distributed very unevenly; the macroeconomic consequences of any policy depend on who receives the gains and who bears the costs; and the distributional consequences of macroeconomic events are themselves the subject of intense political conflict.
-
-This chapter develops the macroeconomics of inequality in three steps. First, measurement: the major statistical tools for characterizing inequality and their properties. Second, the long-run facts of inequality and what drives them. Third, the distributional consequences of the major macroeconomic policy instruments — monetary policy, fiscal policy, and trade — showing that even policies evaluated primarily on aggregate efficiency grounds have substantial distributional implications that feed back into political economy and hence into future policy choices.
+The standard macroeconomic models developed in this book typically feature a representative household. By construction, these models produce no distributional outcomes: there is only one household, so there is nothing to distribute. This abstraction is analytically convenient but empirically and normatively costly. Income and wealth are distributed very unevenly in every country; the macroeconomic consequences of any policy depend on who receives the gains and who bears the costs; and the distributional consequences of macroeconomic events generate the political economy that shapes future policy. This chapter develops the macroeconomics of inequality — measurement tools, the long-run facts, the distributional consequences of monetary and fiscal policy, and the connections between trade, technology, and political backlash.
 
 ---
 
 ## 38.1 Measuring Inequality: Tools and Their Properties
 
-**Definition (Gini Coefficient).** The **Gini coefficient** $G$ is a scalar summary of the inequality in a distribution of income (or wealth), ranging from 0 (perfect equality: everyone has the same income) to 1 (perfect inequality: all income accrues to one person). For a distribution with $n$ individuals with incomes $y_1 \leq y_2 \leq \cdots \leq y_n$ and mean $\mu$:
+### The Gini Coefficient
 
-$$G = \frac{2}{n^2\mu}\sum_{i=1}^n i\,y_i - \frac{n+1}{n} = 1 - \frac{2}{n}\sum_{i=1}^n\!\left(1 - \frac{\sum_{j=1}^i y_j}{\mu n}\right).$$
+**Definition (Gini Coefficient).** The **Gini coefficient** $G$ measures inequality in a distribution of income or wealth, ranging from 0 (perfect equality) to 1 (perfect inequality). For $n$ individuals with incomes $y_1 \leq y_2 \leq \cdots \leq y_n$ and mean $\mu$:
 
-Geometrically, $G$ is twice the area between the **Lorenz curve** (the share of cumulative income held by the bottom $x\%$ of the population) and the 45-degree line of perfect equality.
+$$G = \frac{2}{n^2\mu}\sum_{i=1}^n i\,y_i - \frac{n+1}{n}.$$
 
-The Gini coefficient has useful properties but also important limitations. It summarizes the entire distribution in one number, which is convenient for cross-country comparison but loses information about the distribution's shape. In particular, the Gini is relatively insensitive to changes at the very top of the distribution — two distributions can have the same Gini but very different top income shares. This motivates the use of **top income shares** (the share of national income accruing to the top 1%, 0.1%, or 0.01%) as complementary measures, which are more sensitive to changes in extreme inequality.
+Geometrically, $G$ is twice the area between the **Lorenz curve** — the share of cumulative income held by the bottom $p$ fraction of the population — and the 45-degree line of perfect equality: $G = 1 - 2\int_0^1 L(p)\,dp$.
 
-**Definition (Theil Index).** The **Theil index** is a decomposable inequality measure derived from information theory:
+The Gini has several useful properties: it satisfies the Pigou-Dalton transfer principle (a transfer from rich to poor reduces $G$), it is scale-invariant, and it is symmetric. Its main limitation: two distributions can have identical Gini coefficients but very different shapes. The Gini is relatively insensitive to changes at the very top of the distribution, which is where inequality has changed most dramatically since 1980. This motivates using **top income shares** (the share of national income accruing to the top 1%, 0.1%, or 0.01%) as complementary measures, more sensitive to the extreme right tail.
+
+### The Theil Index and Decomposability
+
+**Definition (Theil Index).** The **Theil index** is:
 
 $$T = \frac{1}{n}\sum_{i=1}^n \frac{y_i}{\mu}\ln\!\left(\frac{y_i}{\mu}\right).$$
 
-Unlike the Gini, the Theil index can be decomposed into within-group and between-group components: $T = T^{within} + T^{between}$. This decomposability makes it valuable for analyzing the sources of inequality — how much of total inequality is attributable to differences between demographic groups versus differences within groups.
+The Theil index decomposes additively: $T = T^{within} + T^{between}$, where $T^{within}$ is inequality within demographic groups (by education, race, region) and $T^{between}$ is inequality between groups. This decomposability makes it valuable for analyzing whether rising overall inequality reflects widening gaps between groups or widening distributions within previously homogeneous groups.
 
-**Definition (Lorenz Curve and Stochastic Dominance).** The **Lorenz curve** $L(p)$ gives the share of total income received by the bottom $p$ fraction of the population. If distribution $A$'s Lorenz curve lies entirely above distribution $B$'s for all $p \in [0,1]$, then $A$ **Lorenz dominates** $B$ — $A$ is unambiguously more equal than $B$ according to all inequality measures that are symmetric, monotone, and satisfy the Pigou–Dalton transfer principle (a transfer from rich to poor reduces inequality).
+### Stochastic Dominance
+
+When Lorenz curve $A$ lies entirely above Lorenz curve $B$ for all $p \in [0,1]$, distribution $A$ **Lorenz dominates** $B$ — $A$ is unambiguously more equal than $B$ according to every inequality measure consistent with the Pigou-Dalton principle. Lorenz dominance provides a partial ordering of distributions that is more robust than any single summary statistic but is not a complete ordering (many distribution pairs have crossing Lorenz curves, where neither dominates the other).
 
 ---
 
@@ -32,67 +39,103 @@ Unlike the Gini, the Theil index can be decomposed into within-group and between
 
 ### The Great Compression and the Great Divergence
 
-Income inequality in the United States and other advanced economies followed a striking U-shaped pattern over the twentieth century. The **Great Compression** (Goldin and Margo, 1992) refers to the sharp decline in income inequality during the 1940s: the ratio of the 90th to the 10th percentile of wages fell dramatically as union coverage expanded, minimum wages were introduced, and wartime wage controls compressed the wage structure. Inequality continued to decline modestly through the 1960s.
+Income inequality in the United States followed a U-shaped pattern over the twentieth century. The **Great Compression** (Goldin and Margo, 1992): inequality fell sharply in the 1940s as union coverage expanded from approximately 15% to 35% of the workforce, the minimum wage was introduced and then raised substantially, and wartime wage controls compressed the wage structure. The ratio of 90th to 10th percentile wages fell by approximately 25% between 1940 and 1950 — a historically unprecedented compression.
 
-The **Great Divergence** (Krugman, 2007) refers to the sustained increase in inequality from approximately 1978 onward. The top 1% income share in the United States, which had fallen from approximately 20% in the late 1920s to approximately 8% by 1978, rose back to approximately 20% by 2012 (Piketty and Saez, 2003). The college premium (wages of college-educated workers relative to non-college) rose substantially. Real wages for workers in the bottom quartile of the wage distribution stagnated or declined in real terms over 1979–2019.
+The **Great Divergence** (Krugman, 2007): from approximately 1978, inequality rose dramatically. The top 1% income share in the United States fell from approximately 20% in 1928 to approximately 8% in 1978 and then rose back to approximately 20% by 2012 (Piketty and Saez, 2003). Real wages for workers in the bottom quartile stagnated or declined in real terms over 1979–2019. The college premium (wages of college graduates relative to high school graduates) rose by approximately 30% over the same period.
+
+The major proximate causes of the Great Divergence: skill-biased technological change (computers and automation raised the relative demand for skills); globalization and the China shock (import competition reduced wages for low-skill manufacturing workers — Autor, Dorn, and Hanson, 2013); declining unionization (union wage premium is approximately 15–20%, and union coverage fell from 35% to 10%); and the erosion of the real minimum wage (the federal minimum wage, adjusted for inflation, fell by approximately 25% between 1968 and 2000). Each factor is quantitatively significant; debates about relative magnitudes continue.
 
 ### Piketty's $r > g$ Framework
 
-Piketty (2014) proposed a simple theoretical framework for understanding long-run wealth inequality. In the long run, the share of income accruing to capital in national income is:
+Piketty (2014) proposed a simple framework for understanding long-run wealth inequality. The capital income share:
 
 $$\alpha = r\cdot\beta,$$
 
-where $r$ is the return on capital and $\beta = K/Y$ is the capital-income ratio (wealth-to-income ratio). From the Solow model, $\beta^* = s/(n+g)$: lower growth rates (lower $g$) generate higher capital-income ratios. Piketty's key argument: if the return on capital $r$ exceeds the growth rate $g$ — the **$r > g$ condition** — wealth tends to concentrate over time. Wealthy individuals earn a return $r$ on their capital, and if they save a fraction of this return, their wealth grows at rate $r > g$, faster than the overall economy. Inequality of wealth rises without bound unless offset by taxes on capital or inheritance.
+where $r$ is the return on capital and $\beta = K/Y$ is the wealth-to-income ratio. From the Solow model, $\beta^* = s/(n+g)$: lower growth rates raise the capital-income ratio. If $r > g$ — the **Piketty condition** — wealth tends to concentrate: wealthy individuals earning return $r$ on capital with some fraction saved will see their wealth grow at rate $r > g$, outpacing the overall economy.
 
-The $r > g$ condition has been the subject of significant criticism. First, in the Ramsey model, $r = \rho + \sigma g$ — when $r > g$, impatient agents with $\rho > 0$ still consume enough to prevent the wealth distribution from diverging. Second, the relevant comparison is not $r$ vs. $g$ but the after-tax return on wealth $r(1-\tau_K)$ vs. $g$: progressive capital and inheritance taxes can stabilize wealth inequality even when $r > g$ pre-tax. Third, the empirical evidence on whether wealth inequality is actually rising toward Piketty's predicted concentration is mixed: while top income shares have risen, the share of the top 1% in *wealth* has risen more modestly (Saez and Zucman, 2016 vs. Kopczuk, 2015 — with large measurement uncertainty due to tax avoidance and offshore wealth).
+The Piketty condition has been contested on several grounds. First, in the Ramsey model $r = \rho + \sigma g$: impatient agents with $\rho > 0$ still consume enough to prevent wealth from diverging as dramatically as Piketty implies. Second, the relevant comparison is the after-tax return $(1-\tau_K)r$ vs. $g$: progressive capital and inheritance taxes can stabilize wealth inequality even when the pre-tax $r > g$. Third, empirical evidence on whether wealth inequality has actually followed Piketty's predicted trajectory is contested: Saez and Zucman (2016) find dramatic concentration of the top 0.1% wealth share; Kopczuk and Schoar document more modest trends, with significant measurement uncertainty from offshore wealth concealment and trusts.
 
 ---
 
 ## 38.3 Distributional Consequences of Monetary Policy
 
-Standard analyses of monetary policy focus on aggregate effects: how does a rate change affect output and inflation? But monetary policy also redistributes income and wealth across groups. Understanding these distributional effects matters both intrinsically (for equity) and instrumentally (for understanding the political constraints on central bank independence).
+Standard analyses of monetary policy focus on aggregate effects. But monetary policy also redistributes income and wealth, with consequences for both equity and the political sustainability of central bank independence.
 
 ### The Auclert Redistribution Framework
 
-Auclert (2019) develops a systematic framework for analyzing monetary policy redistribution. He identifies three channels:
+Auclert (2019) identifies three channels through which monetary policy redistributes:
 
-**The unhedged interest rate exposure (URE) channel**: households with more financial liabilities than assets (**net debtors**) gain when interest rates fall, because their interest payments fall while their asset returns remain unchanged. Net creditors (more assets than liabilities) lose. The distributional impact equals:
+**The Unhedged Interest Rate Exposure (URE) channel**: households whose financial liabilities exceed their financial assets (net debtors) gain when rates fall, because their debt service costs fall while their interest income falls less. Net creditors (more assets than liabilities) lose. The aggregate consumption effect:
 
-$$\mathrm{dC}_h = MPC_h\cdot\mathrm{URE}_h\cdot(-\mathrm{d}r),$$
+$$\mathrm{d}C = \int MPC_h \cdot URE_h \cdot (-\mathrm{d}r)\,\mathrm{d}h,$$
 
-where $\mathrm{URE}_h = \text{financial assets}_h - \text{financial liabilities}_h$ and $MPC_h$ is household $h$'s marginal propensity to consume. When a rate cut redistributes from creditors (low MPC, wealthy) to debtors (high MPC, poorer), the aggregate consumption effect is amplified by the redistribution.
+where $URE_h = \text{financial assets}_h - \text{financial liabilities}_h$. Because net debtors tend to have higher MPCs than net creditors (debtors are typically less wealthy, with fewer precautionary buffers), the URE channel amplifies the aggregate consumption effect of rate cuts.
 
-**The Fisher channel**: unexpected inflation reduces the real value of nominal debt (benefiting debtors) and the real value of nominal assets (hurting creditors). With household debt at approximately 80% of GDP in the United States, a 1% inflation surprise redistributes approximately 0.8% of GDP from creditors to debtors.
+**The Fisher channel**: unexpected inflation reduces the real value of all nominal contracts. Debtors holding fixed-rate mortgages or nominal bonds gain; creditors lose. With household debt at approximately 80% of GDP in the United States, a 1-percentage-point inflation surprise redistributes approximately 0.8% of GDP from nominal creditors to debtors.
 
-**The income heterogeneity channel**: changes in wages and employment caused by monetary policy affect different households differently. Labor income constitutes the majority of income for poorer households; capital income is more important for wealthy households. An expansionary monetary shock that raises employment disproportionately benefits lower-income households through the labor market.
+**The income heterogeneity channel**: expansionary monetary policy raises employment and wages. Because labor income constitutes the majority of income for lower-income households and capital income dominates for wealthy households, the employment channel of monetary policy is distributionally progressive — its gains accrue disproportionately to lower-income households. Kaplan, Moll, and Violante (2018) find this is quantitatively the most important channel in HANK models.
 
-### Quantitative Easing and Wealth Inequality
+### Quantitative Easing and the Wealth Distribution
 
-QE operates primarily through the portfolio balance channel — raising equity and bond prices. Since wealth is highly concentrated (the top 1% hold approximately 40% of financial assets in the United States), QE's asset price effects disproportionately benefit wealthy households. McKinsey Global Institute estimated that U.S. QE increased the financial wealth of the top quintile by approximately $4.6 trillion more than it increased the wealth of the bottom four quintiles combined (2013).
+QE operates primarily through asset price appreciation: lower discount rates raise the present value of future cash flows, boosting equity and real estate prices. Since wealth is highly concentrated (the top 1% own approximately 40% of financial assets in the United States), QE's asset price effects disproportionately benefit wealthy households — a regressive distributional consequence. The McKinsey Global Institute (2013) estimated that U.S. QE increased financial wealth by approximately $4.6 trillion for the top quintile versus modest increases for the lower quintiles.
 
-However, the distributional assessment of QE must weigh its asset-price effects against its employment effects. If QE prevented a depression that would have devastated low-income workers, the distributional calculus may favor the poor even with unequal asset price effects. This counterfactual question — what would have happened without QE — is central to a complete distributional assessment and is inherently difficult to answer.
+However, the distributional assessment of QE must weigh asset price effects against employment effects. If QE prevented a depression that would have devastated low-income workers, the employment channel may dominate the asset price channel in welfare terms. This counterfactual is inherently difficult to establish but is central to a complete evaluation. The HANK framework [Ch. 39] suggests that the employment-income channel is large relative to the intertemporal substitution channel that is QE's primary mechanism in RANK models — potentially partially offsetting the asset-price inequality effect.
 
 ---
 
 ## 38.4 Fiscal Policy and Redistribution
 
-Fiscal policy is the primary instrument of redistribution in advanced economies. The combination of progressive income taxes, means-tested transfers, and public provision of education and healthcare generates a systematic redistribution from higher to lower income households.
+### The Size and Mechanics of Redistribution
 
-**The size of redistribution**: in OECD countries, the ratio of the market income Gini to the disposable income Gini (after taxes and transfers) is approximately 0.45 in the United States (relatively less redistribution) and 0.25 in Nordic countries (more redistribution). Taxes and transfers reduce the Gini by approximately 30–40% in most advanced economies.
+Fiscal policy is the primary instrument of redistribution in advanced economies. The combination of progressive income taxes, means-tested transfers, and universal provision of education and healthcare generates systematic redistribution from higher to lower income households. In OECD countries, the market income Gini (pre-tax, pre-transfer) is approximately 0.45–0.50; the disposable income Gini (post-tax, post-transfer) is approximately 0.25–0.35 in Nordic countries and approximately 0.38 in the United States. Taxes and transfers reduce the Gini by approximately 30–40% — a large effect.
 
-**The incidence of taxes**: the distributional impact of a tax depends on who ultimately bears its burden — not necessarily who legally pays it. Payroll taxes (legally split between employers and employees) are likely borne primarily by workers in the long run, since labor supply is inelastic and the incidence falls on the inelastic side. Value-added taxes (sales taxes) are borne by consumers, making them regressive if the consumption share of income declines with income. Corporate income taxes are contested: theory suggests they are borne partly by capital (reducing the after-tax return) and partly by labor (through lower investment and wages), with the shares depending on the openness of the economy.
+### Tax Incidence and Distributional Consequences
 
-**Fiscal consolidation and distributional consequences**: austerity programs typically combine spending cuts and tax increases. The distributional impact depends critically on which spending is cut and which taxes are raised. Cuts to social programs (healthcare, housing assistance, food stamps) affect primarily lower-income households; cuts to public sector employment affect a broader range but with a concentration in middle-income households. The 2010–15 European austerity programs were associated with sharp increases in income inequality in the periphery countries (Greece, Spain, Portugal, Ireland) even as aggregate inequality in the EU remained roughly stable.
+The distributional impact of a tax depends on who ultimately bears its burden, not who legally pays it. The incidence depends on the relative elasticities of supply and demand:
+
+**Payroll taxes**: legally split between employers and employees. In the long run, labor supply is relatively inelastic (workers must work) and the labor demand curve is relatively elastic. The incidence falls primarily on workers through lower take-home wages, making payroll taxes more regressive than their legal structure suggests.
+
+**Corporate income taxes**: contested incidence. In a closed economy, the incidence falls primarily on capital (shareholders and capital owners bear the tax through lower after-tax returns). In an open economy with mobile international capital, the burden may shift to labor through reduced investment and wages. Empirical estimates of the capital-labor split range from 20/80 to 70/30, reflecting the sensitivity to assumptions about capital mobility.
+
+**Value-added taxes**: borne by consumers in proportion to their consumption. Since the consumption share of income declines with income (wealthy households save more), VAT is regressive: lower-income households pay a higher fraction of their income in VAT than wealthy households. However, VATs combined with targeted transfers to low-income households can be made distributionally neutral.
+
+### Fiscal Consolidation and Distribution
+
+Austerity programs — cutting spending and raising taxes — have distributional consequences that depend critically on composition. Cuts to social programs (UI, food assistance, housing vouchers, healthcare) affect primarily lower-income households; cuts to public employment affect a broader range. The 2010–15 European austerity programs — concentrated in the periphery (Greece, Spain, Portugal, Ireland) — were associated with sharp increases in measured disposable income inequality even as market income inequality rose only modestly, as the transfer programs that had previously compressed disposable income were cut back.
 
 ---
 
 ## 38.5 Trade, Technology, and the Political Economy of Inequality
 
-The interaction between trade, technology, and inequality has generated intense political controversy in the 2010s–2020s, as the populations of advanced economies that benefited least from globalization turned to populist political movements. Understanding the macroeconomics underlying this political economy is essential.
+### The China Shock
 
-The Stolper–Samuelson theorem (developed in Chapter 21) predicts that trade liberalization in a capital-abundant country reduces the real wage of the abundant factor (capital) is benefited and the scarce factor (low-skilled labor) is harmed. The China shock — China's WTO accession in 2001 and the resulting surge in Chinese manufacturing exports — provides a natural experiment. Autor, Dorn, and Hanson (2013) use cross-regional variation in exposure to Chinese import competition to estimate causal effects: regions more exposed to Chinese imports experienced persistently higher unemployment, lower wages, and greater social distress, with the negative effects lasting more than a decade. The estimated wage reduction for affected workers is approximately 3–7% of earnings, with employment losses of approximately 2–2.4 million U.S. manufacturing jobs attributable directly to Chinese competition.
+China's accession to the WTO in 2001 and the subsequent surge in Chinese manufacturing exports created a natural experiment. Autor, Dorn, and Hanson (2013) exploit cross-regional variation in exposure to Chinese import competition — regions with industry mixes more exposed to Chinese imports experienced sharper declines in manufacturing employment — to estimate causal effects: a $1,000 per worker increase in Chinese import exposure reduced wages by approximately $\$312$ and employment by approximately 0.6 percentage points annually. The estimated total: approximately 2–2.4 million U.S. manufacturing job losses attributable to Chinese competition, with the effects concentrated geographically in the Midwest and South.
 
-The key political economy insight: the gains from trade liberalization are diffuse (slightly lower prices for all consumers) while the losses are concentrated (large wage and employment losses for specific workers in specific places). The politically visible concentrated losses generate more intense opposition than the diffuse gains generate support — a fundamental asymmetry that makes trade liberalization politically fragile even when it is economically beneficial in aggregate.
+The key political economy asymmetry: the gains from trade liberalization are diffuse (slightly lower prices for all consumers — perhaps $\$250$/year per household from Chinese imports) while the losses are concentrated (severe wage and employment losses for specific workers in specific places, with effects lasting more than a decade). The politically visible concentrated losses generate more intense opposition than the diffuse gains generate support — a fundamental asymmetry that makes trade liberalization politically fragile even when it generates positive net aggregate welfare.
+
+### Technology and Distributional Consequences
+
+As Chapter 36 develops, automation of routine tasks has simultaneously increased labor demand for high-skill non-routine cognitive workers and decreased demand for middle-skill routine workers — the polarization hypothesis. Acemoglu and Restrepo's task-based framework implies that the distributional consequences of technology depend critically on whether reinstatement (new tasks for displaced workers) keeps pace with displacement. The evidence from the 1980s–2010s suggests that reinstatement has been insufficient to prevent polarization.
+
+The distributional consequences of AI — which threatens non-routine cognitive tasks — are potentially larger: if AI displaces knowledge workers who previously benefited from technological change, the political economy of technology-driven inequality becomes more widespread and more politically volatile.
+
+### Inequality and Political Macroeconomics
+
+The macroeconomic consequences of rising inequality feed back into policy choices through political economy. High inequality reduces social trust, increases political polarization, and generates pressure for protectionist and redistributive policies that may reduce economic efficiency while addressing distributional concerns. Mian, Straub, and Sufi (2021) argue that rising inequality has been a primary driver of the secular decline in interest rates: wealthy households save more (lower $r$) while workers borrow to sustain consumption (higher leverage); the resulting imbalance requires ever-lower interest rates to maintain demand. This perspective integrates inequality analysis directly into the macroeconomic modeling of secular stagnation.
+
+---
+
+## Chapter Summary
+
+- **Gini coefficient** $G = 2\int_0^1(p - L(p))dp$ summarizes inequality; Theil index $T$ decomposes within/between groups. Top income shares are more sensitive to extreme inequality. Lorenz dominance provides a robust partial ordering.
+
+- The **Great Compression** (1940s: union expansion, minimum wage, wartime controls) reduced U.S. inequality dramatically; the **Great Divergence** (1978–present: skill-biased technology, China shock, union decline, minimum wage erosion) reversed it. The top 1% income share returned to its 1928 level by 2012. **Piketty's $r > g$ framework** explains wealth concentration dynamics; contested on Ramsey model grounds and empirically.
+
+- **Monetary policy distributes** through three Auclert channels: URE (net debtors gain from rate cuts), Fisher (debtors gain from inflation surprises), and income heterogeneity (expansions benefit labor income disproportionately). QE's asset price channel benefits the wealthy; the employment channel benefits the poor; the net effect is contested.
+
+- **Fiscal redistribution** reduces the Gini by 30–40% in advanced economies. Tax incidence diverges from legal structure: payroll taxes fall primarily on workers; VAT is regressive; corporate tax incidence depends on capital mobility. Austerity disproportionately cuts benefits to lower-income households.
+
+- The **China shock** (Autor-Dorn-Hanson) caused approximately 2 million U.S. manufacturing job losses with geographically concentrated long-lasting effects. The political economy asymmetry — diffuse gains, concentrated losses — makes trade liberalization politically fragile. Rising inequality may feed back into lower $r^n$ through the Mian-Straub-Sufi saving mechanism.
 
 ---
 
