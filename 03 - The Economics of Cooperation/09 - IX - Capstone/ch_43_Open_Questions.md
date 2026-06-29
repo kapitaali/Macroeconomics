@@ -88,6 +88,14 @@ The cooperative platform theory of Chapter 35 was developed for platforms with t
 
 **Promising approaches.** Liquid democracy and proxy voting at scale [Paulin, 2020]; random stratified governance samples (citizens' assemblies as governance mechanisms for large platforms); AI-assisted governance decision synthesis (aggregating millions of preferences into coherent policy without losing the democratic character).
 
+### Gap T6: Cooperative Predistribution Dynamics
+
+Chapter 41b formalised the Cooperative Predistribution Equilibrium — combining employment guarantee, working time reduction, and Shapley-consistent care valuation — and proved that it achieves strictly lower primary income inequality than the competitive equilibrium (Theorem 41b.4). But the chapter established this as a comparative statics result: it characterises the CPE's steady state without fully analysing the dynamics of reaching it. Several questions about the dynamics remain open.
+
+**The open problems.** (i) The dynamic care Shapley game: Chapter 41b (Proposition 41b.1) established that care workers have positive Shapley values in the static cooperative game. The dynamic extension — in which care investment in period $t$ generates human capital that increases the value of coalitions in period $t+k$ — is significantly more complex. What is the optimal care investment trajectory in the dynamic cooperative game, and does it converge to the static Shapley allocation as a special case? (ii) The CPE transition path: Chapter 41b's Theorem 41b.4 characterises the CPE as a steady state but does not prove that the economy converges to it from a competitive equilibrium starting point. The coupled dynamics of the buffer stock ($L^{\text{EG}}$), working hours ($H$), labour Gini ($G_L$), and care OVA ($\ell_c^{\text{OVA}}$) form a four-dimensional nonlinear system whose phase portrait has not been fully characterised (Exercise ★★ 41b.6 poses this as an open problem). (iii) The gender dynamics of care redistribution: the 5Rs framework specifies that care must be redistributed toward gender equity, but the formal model of intra-household care bargaining was only sketched.
+
+**Promising approaches.** Pontryagin optimal control for the dynamic care game [C:Appendix A.5]; stochastic stability theory [Foster and Young, 1990] for convergence to the CPE; intra-household bargaining models in the cooperative game tradition [Browning et al., 2014]; empirical calibration using the Nordic care cooperative datasets.
+
 ---
 
 ## 43.3 Empirical Gaps
@@ -115,6 +123,14 @@ The natural capital shadow prices in the SFC-N framework (Chapter 18) are derive
 The Transition Tipping Point Theorem requires an estimate of $v_{\text{CRE}}$ — the network externality coefficient of cooperative-regenerative institutions. Chapter 40's calibration ($v_{\text{CRE}} \approx 0.35$) is based on the Quebec cooperative density regression (Chapter 32) and the Emilia-Romagna data (Chapter 29). But these estimates conflate the direct effect of cooperative institutions with the network externality specifically — the additional benefit each new cooperative enterprise brings to existing ones through supply chain integration, shared governance standards, and mutual credit networks.
 
 **The research need.** Identification of the cooperative network externality separately from the direct cooperative enterprise effect. Instrumental variable approaches (exogenous variation in cooperative density — e.g., post-WWII cooperative formation driven by regional reconstruction policies — used to identify the spillover effect on surrounding firms). Input-output analysis to quantify supply chain integration across cooperative and conventional firms. Mutual credit network analysis to measure the increase in clearing efficiency as cooperative density rises.
+
+### Gap E5: Measuring Deliberative Convergence and SIW Implementation
+
+Chapter 41c's Theorem 41c.2 (Deliberative Convergence) predicts that citizens' assemblies operating under informational completeness and justificatory constraints converge in probability toward a Condorcet winner in the MPD welfare weight space. The French and Irish assembly evidence is consistent with this prediction, but neither assembly was designed to test it — preference data was collected only partially, the convergence dynamics were not tracked systematically, and the sessions were too short to observe the full trajectory. Similarly, the SIW accounting framework (Definition 41c.4) is conceptually specified but empirically thin: only 8 countries publish anything close to integrated SIW accounts, and none has run the framework for long enough to test Theorem 41c.3's divergence prediction against real-time data.
+
+**The research needs.** (i) A systematic, pre-registered assembly study: a citizens' assembly on wellbeing priorities in which participant welfare weights ($\mathbf{w}_i$) are elicited at the beginning and end of each deliberative session, using a conjoint analysis instrument calibrated to the MPD dimensions. The convergence dynamics — whether preferences converge, at what rate, toward what distribution, and under what conditions convergence fails — can then be estimated directly. (ii) A comparative SIW implementation study: a panel of countries implementing different components of the SIW framework (New Zealand, Scotland, Wales, Iceland, Finland) with standardised measurement protocols, enabling cross-country identification of the SIW-GDP divergence predicted by Theorem 41c.3. The OECD Framework for Measuring Wellbeing and Progress provides a partial institutional infrastructure; what is missing is the time-series depth and the ecological stocks dimension (SEEA-EA) needed to test the theorem.
+
+**Promising data sources.** The newDemocracy Foundation's systematic archive of mini-publics; OECD Better Life Index longitudinal data; Scotland's National Performance Framework (longest-running national wellbeing dashboard, since 2007); the UN Statistics Division's SEEA-EA pilot implementation programme.
 
 ---
 
@@ -150,9 +166,9 @@ The Planetary Boundaries framework (Chapter 17) provides a nine-dimensional cons
 
 ---
 
-## 43.5 The Research Agenda: Fifteen Prioritized Questions
+## 43.5 The Research Agenda: Eighteen Prioritized Questions
 
-Drawing from the gaps and frontiers above, we identify fifteen prioritized research questions for the cooperative-regenerative economics research program over the next decade.
+Drawing from the gaps and frontiers above — including the three new gaps opened by Chapters 41b and 41c (Gap T6, Gap E5) — we identify eighteen prioritized research questions for the cooperative-regenerative economics research program over the next decade.
 
 **Priority A: Foundational theory (most urgent)**
 
@@ -166,29 +182,35 @@ Drawing from the gaps and frontiers above, we identify fifteen prioritized resea
 
 **Q5.** *Cooperative governance at billion-user scale:* What governance mechanisms implement democratic cooperative principles at platform scales currently dominated by surveillance capitalism? Methodology: Mechanism design for large populations; distributed consensus protocols.
 
+**Q6.** *Cooperative predistribution dynamics:* What is the optimal care investment trajectory in the dynamic Shapley game, and do the coupled CPE dynamics (buffer stock, working hours, care OVA, labour Gini) converge asymptotically to the CPE steady state from competitive equilibrium initial conditions? [C:Ch.41b, Gap T6] Methodology: Pontryagin optimal control; stochastic stability; intra-household bargaining theory.
+
 **Priority B: Empirical foundations (most needed)**
 
-**Q6.** *Longitudinal cooperative enterprise performance:* Does the cooperative productivity and resilience advantage persist over 20–50-year horizons, or does it converge to conventional firm performance as cooperatives age? Methodology: Long-panel econometrics; synthetic control methods.
+**Q7.** *Longitudinal cooperative enterprise performance:* Does the cooperative productivity and resilience advantage persist over 20–50-year horizons, or does it converge to conventional firm performance as cooperatives age? Methodology: Long-panel econometrics; synthetic control methods.
 
-**Q7.** *Commons value measurement:* What stated preference and behavioral methods produce reliable, replicable estimates of digital commons and natural capital value? Methodology: Conjoint analysis; experimental economics; large-scale WTA surveys.
+**Q8.** *Commons value measurement:* What stated preference and behavioral methods produce reliable, replicable estimates of digital commons and natural capital value? Methodology: Conjoint analysis; experimental economics; large-scale WTA surveys.
 
-**Q8.** *Cooperative network externality identification:* What is the causal magnitude of the cooperative network externality — the additional benefit each new cooperative brings to existing ones through supply chain and governance spillovers? Methodology: Instrumental variables using exogenous cooperative density variation; input-output network analysis.
+**Q9.** *Cooperative network externality identification:* What is the causal magnitude of the cooperative network externality — the additional benefit each new cooperative brings to existing ones through supply chain and governance spillovers? Methodology: Instrumental variables using exogenous cooperative density variation; input-output network analysis.
 
-**Q9.** *Demurrage adoption dynamics:* Do communities that adopt demurrage currencies exhibit the predicted velocity increase, reduced hoarding, and counter-cyclical stabilization? Large-scale quasi-experimental evidence from digital demurrage implementations? Methodology: DiD exploiting variation in demurrage adoption; velocity measurement from digital transaction records.
+**Q10.** *Demurrage adoption dynamics:* Do communities that adopt demurrage currencies exhibit the predicted velocity increase, reduced hoarding, and counter-cyclical stabilization? Large-scale quasi-experimental evidence from digital demurrage implementations? Methodology: DiD exploiting variation in demurrage adoption; velocity measurement from digital transaction records.
 
-**Q10.** *Ecological-monetary feedback:* Is there an empirical correlation between natural capital depletion and subsequent financial instability, controlling for standard macroeconomic variables? Methodology: Panel econometrics across countries with natural capital stock data; Granger causality testing.
+**Q11.** *Ecological-monetary feedback:* Is there an empirical correlation between natural capital depletion and subsequent financial instability, controlling for standard macroeconomic variables? Methodology: Panel econometrics across countries with natural capital stock data; Granger causality testing.
+
+**Q12.** *Deliberative convergence and SIW implementation:* Do citizens' assemblies on wellbeing priorities exhibit the convergence dynamics predicted by Theorem 41c.2, and do the countries implementing SIW accounting exhibit the GDP-SIW divergence predicted by Theorem 41c.3? [C:Ch.41c, Gap E5] Methodology: Pre-registered assembly study with panel elicitation of welfare weights; comparative SIW panel across New Zealand, Scotland, Wales, Iceland, Finland.
 
 **Priority C: Applied design (most actionable)**
 
-**Q11.** *Optimal CR-SEZ design:* What specific institutional configurations of the Cooperative-Regenerative Special Economic Zone generate the largest welfare improvements? Methodology: Multi-armed bandit experimentation (Chapter 42, Algorithm 42.1) across CR-SEZ variants.
+**Q13.** *Optimal CR-SEZ design:* What specific institutional configurations of the Cooperative-Regenerative Special Economic Zone generate the largest welfare improvements? Methodology: Multi-armed bandit experimentation (Chapter 42, Algorithm 42.1) across CR-SEZ variants.
 
-**Q12.** *Transition sequencing optimization:* Can the transition path be formally optimized using reinforcement learning to discover sequences that maximize IPI while respecting the three transition trap constraints? Methodology: Deep RL applied to the unified model (Chapter 29).
+**Q14.** *Transition sequencing optimization:* Can the transition path be formally optimized using reinforcement learning to discover sequences that maximize IPI while respecting the three transition trap constraints? Methodology: Deep RL applied to the unified model (Chapter 29).
 
-**Q13.** *Planetary Ledger implementation:* What technological, institutional, and governance architecture is needed to implement the Planetary Ledger (Chapter 20) at sufficient scale and precision for the GTA framework (Chapter 17) to be operationally binding? Methodology: Technology assessment; comparative institutional analysis of Earth system governance architectures.
+**Q15.** *Planetary Ledger implementation:* What technological, institutional, and governance architecture is needed to implement the Planetary Ledger (Chapter 20) at sufficient scale and precision for the GTA framework (Chapter 17) to be operationally binding? Methodology: Technology assessment; comparative institutional analysis of Earth system governance architectures.
 
-**Q14.** *Cooperative monetary transition dynamics:* What is the welfare trajectory during the 20-year transition from debt-based to sovereign money + mutual credit + demurrage hybrid (Chapter 28)? Are there significant transition costs and how are they distributed? Methodology: Agent-based SFC modeling; historical analogy from Iceland and Denmark case study.
+**Q16.** *Cooperative monetary transition dynamics:* What is the welfare trajectory during the 20-year transition from debt-based to sovereign money + mutual credit + demurrage hybrid (Chapter 28)? Are there significant transition costs and how are they distributed? Methodology: Agent-based SFC modeling; historical analogy from Iceland and Denmark case study.
 
-**Q15.** *Data cooperative scaling:* At what membership scale do data cooperatives generate sufficient per-member dividends to achieve self-sustaining adoption without regulatory mandate? Methodology: Shapley value simulation under different adoption scenarios; tipping threshold analysis calibrated to sector-specific data value functions.
+**Q17.** *Data cooperative scaling:* At what membership scale do data cooperatives generate sufficient per-member dividends to achieve self-sustaining adoption without regulatory mandate? Methodology: Shapley value simulation under different adoption scenarios; tipping threshold analysis calibrated to sector-specific data value functions.
+
+**Q18.** *Democratic planning impact:* Does the adoption of wellbeing budgeting with democratically determined welfare weight vectors produce measurably higher IPI than GDP-centric budgeting, controlling for country fixed effects and income level? What institutional features of the citizens' assembly process most strongly predict convergence quality? [C:Ch.41c, Theorem 41c.5] Methodology: Comparative interrupted time-series design exploiting staggered national wellbeing budget adoption; structural equation modelling of assembly process features and convergence outcomes.
 
 ---
 

@@ -121,20 +121,26 @@ If you choose a real locality, acknowledge what you do not know and what assumpt
 
 ### Component 5: Transition Pathway
 
-**5a. Policy package.** Using the eleven instruments of Chapter 41:
+**5a. Policy package.** Using the eleven instruments of Chapter 41 and the predistribution instruments of Chapter 41b:
 
-- Select the six most relevant instruments for your locality.
+- Select the six most relevant instruments for your locality, including at least one from each of: Chapter 41's price/subsidy instruments; Chapter 41's institutional reforms; and Chapter 41b's predistributive instruments (employment guarantee, working time reduction, or care OVA).
 - For each: specify the rate/level, the implementation timeline, the revenue generated or cost incurred, and the expected effect on $\theta$, $v_{\text{CRE}}$, and $\phi_{\text{landscape}}$.
-- Verify fiscal balance: total revenue ≥ total cost across all six instruments.
+- Verify fiscal balance: total revenue ≥ total cost across all instruments.
 - Compute the updated Transition Tipping Point $\hat{x}^{\text{CRE}}$ under the policy package. Is it below the current cooperative sector share?
 
-**5b. Experimentation strategy.** Using the MAB framework of Chapter 42:
+**5b. Democratic governance framework.** Using Chapter 41c's institutional tools:
+
+- Design a local citizens' assembly process for determining the welfare weight vector $\mathbf{w}$ for your locality's MPD planning. Specify: stratification criteria, evidence base, justificatory constraint, supermajority threshold.
+- Specify the SIW accounts for your locality: which dimensions of $\mathcal{W}$ (current wellbeing), $\mathcal{S}$ (sustainability), and $\mathcal{I}$ (inclusion) are measurable with available data?
+- Design a Participatory Social Audit for your locality's cooperative enterprise zone, specifying all five PSA components (monitors, verified accounts, audit cycle, sanctioning authority, escalation mechanism).
+
+**5c. Experimentation strategy.** Using the MAB framework of Chapter 42:
 
 - Identify three institutional design variants (arms) that should be tested in parallel before commitment to the full design.
 - Specify the outcome metrics for each arm and the evaluation timeline.
 - Using Thompson Sampling logic, specify when you would commit to the best arm and begin full replication.
 
-**5c. Stakeholder engagement.** Using the political economy model of Chapter 41 and the coalition analysis:
+**5d. Stakeholder engagement.** Using the political economy model of Chapter 41 and the coalition analysis:
 
 - Identify the five most important stakeholder groups in your locality and their expected position on the cooperative-regenerative transition (support, neutral, oppose).
 - Design the engagement process: how are opponents identified and addressed, how are supporters organized, and what early wins build the coalition?
@@ -331,7 +337,7 @@ A complete capstone project should satisfy the following criteria:
 
 This chapter has provided the complete specification and a partial worked solution for the capstone project — the synthesis exercise that applies the full analytical toolkit of the trilogy to the concrete design of a local cooperative-regenerative economy.
 
-The five components — institutional architecture, ecological embedding, cooperative game analysis, simulation, and transition pathway — require drawing on every major part of the book. Component 1 applies the Three-Layer Coordination Stack (Chapter 29), cooperative enterprise design (Chapter 34), polycentric governance (Chapter 14), and the hybrid monetary system (Chapter 28). Component 2 applies the MFA framework (Chapter 17), SFC-N natural capital accounting (Chapter 18), and the regeneration condition (Chapter 20). Component 3 applies cooperative game theory (Chapters 3, 6) and Shapley value analysis. Component 4 applies agent-based modeling (Chapter 10) and SFC macro modeling (Chapter 28). Component 5 applies the policy instruments (Chapter 41), MAB experimentation (Chapter 42), and the coalition analysis (Chapter 41).
+The five components — institutional architecture, ecological embedding, cooperative game analysis, simulation, and transition pathway — require drawing on every major part of the book. Component 1 applies the Three-Layer Coordination Stack (Chapter 29), cooperative enterprise design (Chapter 34), polycentric governance (Chapter 14), and the hybrid monetary system (Chapter 28) — and now also the Employment Guarantee and care OVA from Chapter 41b, which are required elements of any cooperative enterprise zone's labour market design. Component 2 applies the MFA framework (Chapter 17), SFC-N natural capital accounting (Chapter 18), and the regeneration condition (Chapter 20). Component 3 applies cooperative game theory (Chapters 3, 6) and Shapley value analysis — extended to care labour following Proposition 41b.1. Component 4 applies agent-based modeling (Chapter 10) and SFC macro modeling (Chapter 28). Component 5 applies the policy instruments (Chapter 41), the predistribution instruments (Chapter 41b — employment guarantee, working time reduction, care OVA), the democratic planning and SIW governance framework (Chapter 41c — citizens' assembly process, social audit design, Democratic Accountability Loop), and the MAB experimentation methodology (Chapter 42).
 
 The Darlington worked solution demonstrates the methodology at full detail for Components 1 and 2, and at framework level for Components 3–5. Its most important finding — that local experimentation is necessary but not sufficient for systemic transition, requiring national policy coordination — is the honest analytical conclusion that the project's formal framework produces. It is not a counsel of despair but a specification of what is needed beyond the local.
 
